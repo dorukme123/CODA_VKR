@@ -1,0 +1,43 @@
+{
+  "model": "coda_base",
+  "checkpoint": "results/checkpoints/coda_base/epoch_010.pt",
+  "test_manifest": "results/preprocessed/dusha/crowd_test/manifest.jsonl",
+  "test_samples": 16814,
+  "metrics": {
+    "weighted_accuracy": 0.7939812061377424,
+    "unweighted_accuracy": 0.7890003798383077,
+    "macro_f1": 0.7529769499175994,
+    "per_class_f1": {
+      "angry": 0.7852316602316602,
+      "sad": 0.6638684854844351,
+      "neutral": 0.8428592169578474,
+      "positive": 0.719948436996455
+    },
+    "confusion_matrix": [
+      [
+        1627,
+        45,
+        262,
+        68
+      ],
+      [
+        22,
+        1898,
+        552,
+        14
+      ],
+      [
+        437,
+        1277,
+        8708,
+        473
+      ],
+      [
+        56,
+        12,
+        246,
+        1117
+      ]
+    ]
+  }
+}

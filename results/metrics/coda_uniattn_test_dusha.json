@@ -1,0 +1,43 @@
+{
+  "model": "coda_uniattn",
+  "checkpoint": "results/checkpoints/coda_uniattn/epoch_006.pt",
+  "test_manifest": "results/preprocessed/dusha/crowd_test/manifest.jsonl",
+  "test_samples": 16814,
+  "metrics": {
+    "weighted_accuracy": 0.7993933626739622,
+    "unweighted_accuracy": 0.7877409234016529,
+    "macro_f1": 0.7492826307335396,
+    "per_class_f1": {
+      "angry": 0.7563825183903072,
+      "sad": 0.6780287474332649,
+      "neutral": 0.8504418438022451,
+      "positive": 0.7122774133083412
+    },
+    "confusion_matrix": [
+      [
+        1748,
+        17,
+        179,
+        58
+      ],
+      [
+        56,
+        1651,
+        754,
+        25
+      ],
+      [
+        736,
+        710,
+        8902,
+        547
+      ],
+      [
+        80,
+        6,
+        205,
+        1140
+      ]
+    ]
+  }
+}

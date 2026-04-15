@@ -1,0 +1,54 @@
+{
+  "model": "coda_biattn",
+  "variant": "biattn",
+  "seed": 42,
+  "best_val_ua": 0.8279844337587166,
+  "final_val_metrics": {
+    "weighted_accuracy": 0.8234385895009463,
+    "unweighted_accuracy": 0.8279844337587166,
+    "macro_f1": 0.784012296733443,
+    "per_class_f1": {
+      "angry": 0.8175805419244719,
+      "sad": 0.6847910517321734,
+      "neutral": 0.8694334808435993,
+      "positive": 0.7642441124335275
+    },
+    "confusion_matrix": [
+      [
+        1916,
+        63,
+        272,
+        62
+      ],
+      [
+        12,
+        2204,
+        280,
+        10
+      ],
+      [
+        374,
+        1613,
+        10904,
+        450
+      ],
+      [
+        72,
+        51,
+        286,
+        1509
+      ]
+    ]
+  },
+  "total_time_sec": 5188.525790929794,
+  "config": {
+    "model_name": "coda_biattn",
+    "variant": "biattn",
+    "seed": 42,
+    "max_samples": null,
+    "batch_size": 16,
+    "lr": 0.0001,
+    "freeze_bert": true,
+    "weight_method": "sqrt_inverse"
+  }
+}

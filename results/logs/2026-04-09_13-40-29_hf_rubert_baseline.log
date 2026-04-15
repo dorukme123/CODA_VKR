@@ -1,0 +1,80 @@
+2026-04-09 13:40:29 | INFO     | hf_rubert_baseline | Log file: C:\Users\Meric\Desktop\VKR\Code\results\logs\2026-04-09_13-40-29_hf_rubert_baseline.log
+2026-04-09 13:40:29 | INFO     | hf_rubert_baseline | ============================================================
+2026-04-09 13:40:29 | INFO     | hf_rubert_baseline | Training: hf_rubert_baseline
+2026-04-09 13:40:29 | INFO     | hf_rubert_baseline | Device: cuda | Seed: 42 | Dry run: False
+2026-04-09 13:40:29 | INFO     | hf_rubert_baseline | Epochs: 30 | Batch: 16 | LR: 2.00e-05
+2026-04-09 13:40:29 | INFO     | hf_rubert_baseline | Freeze BERT: False
+2026-04-09 13:40:29 | INFO     | hf_rubert_baseline | ============================================================
+2026-04-09 13:40:30 | INFO     | hf_rubert_baseline | Dataset: 4671 samples (text required)
+2026-04-09 13:40:30 | INFO     | hf_rubert_baseline | Train: 4204 | Val: 467
+2026-04-09 13:40:30 | INFO     | hf_rubert_baseline | Class weights: [1.1112291812896729, 0.886798620223999, 0.49616384506225586, 1.5058083534240723]
+2026-04-09 13:40:34 | INFO     | hf_rubert_baseline | Total params: 178,571,524 | Trainable: 178,571,524
+2026-04-09 13:41:07 | DEBUG    | hf_rubert_baseline |   batch 50 | loss 1.4110 | lr 9.90e-07 | GPU 2.88 GB
+2026-04-09 13:41:12 | DEBUG    | hf_rubert_baseline |   batch 100 | loss 1.3549 | lr 1.55e-06 | GPU 2.87 GB
+2026-04-09 13:41:16 | DEBUG    | hf_rubert_baseline |   batch 150 | loss 1.4505 | lr 2.47e-06 | GPU 2.87 GB
+2026-04-09 13:41:20 | DEBUG    | hf_rubert_baseline |   batch 200 | loss 1.3773 | lr 3.69e-06 | GPU 2.88 GB
+2026-04-09 13:41:25 | DEBUG    | hf_rubert_baseline |   batch 250 | loss 1.2603 | lr 5.19e-06 | GPU 2.88 GB
+2026-04-09 13:41:53 | INFO     | hf_rubert_baseline | Epoch 1/30 | train_loss 1.3766 | val_loss 1.2606 | train_UA 0.2996 | val_UA 0.4756 | val_F1 0.4179 | time 77.7s | ETA 2253.2s
+2026-04-09 13:42:03 | DEBUG    | hf_rubert_baseline |   batch 50 | loss 1.1861 | lr 7.35e-06 | GPU 2.87 GB
+2026-04-09 13:42:08 | DEBUG    | hf_rubert_baseline |   batch 100 | loss 1.1962 | lr 9.22e-06 | GPU 2.87 GB
+2026-04-09 13:42:12 | DEBUG    | hf_rubert_baseline |   batch 150 | loss 0.9274 | lr 1.11e-05 | GPU 2.87 GB
+2026-04-09 13:42:16 | DEBUG    | hf_rubert_baseline |   batch 200 | loss 0.9806 | lr 1.30e-05 | GPU 2.88 GB
+2026-04-09 13:42:21 | DEBUG    | hf_rubert_baseline |   batch 250 | loss 1.2156 | lr 1.48e-05 | GPU 2.87 GB
+2026-04-09 13:42:23 | INFO     | hf_rubert_baseline | Epoch 2/30 | train_loss 1.1328 | val_loss 0.9802 | train_UA 0.5099 | val_UA 0.5733 | val_F1 0.5477 | time 24.1s | ETA 1495.9s
+2026-04-09 13:42:33 | DEBUG    | hf_rubert_baseline |   batch 50 | loss 1.0488 | lr 1.68e-05 | GPU 2.87 GB
+2026-04-09 13:42:37 | DEBUG    | hf_rubert_baseline |   batch 100 | loss 0.5624 | lr 1.81e-05 | GPU 2.87 GB
+2026-04-09 13:42:42 | DEBUG    | hf_rubert_baseline |   batch 150 | loss 0.8386 | lr 1.91e-05 | GPU 2.88 GB
+2026-04-09 13:42:46 | DEBUG    | hf_rubert_baseline |   batch 200 | loss 0.7282 | lr 1.97e-05 | GPU 2.87 GB
+2026-04-09 13:42:50 | DEBUG    | hf_rubert_baseline |   batch 250 | loss 1.1702 | lr 2.00e-05 | GPU 2.87 GB
+2026-04-09 13:42:52 | INFO     | hf_rubert_baseline | Epoch 3/30 | train_loss 0.9308 | val_loss 0.9901 | train_UA 0.6155 | val_UA 0.5844 | val_F1 0.5123 | time 24.0s | ETA 1228.7s
+2026-04-09 13:43:02 | DEBUG    | hf_rubert_baseline |   batch 50 | loss 0.5899 | lr 2.00e-05 | GPU 2.87 GB
+2026-04-09 13:43:07 | DEBUG    | hf_rubert_baseline |   batch 100 | loss 0.7627 | lr 2.00e-05 | GPU 2.87 GB
+2026-04-09 13:43:11 | DEBUG    | hf_rubert_baseline |   batch 150 | loss 0.9487 | lr 2.00e-05 | GPU 2.87 GB
+2026-04-09 13:43:15 | DEBUG    | hf_rubert_baseline |   batch 200 | loss 0.9314 | lr 2.00e-05 | GPU 2.88 GB
+2026-04-09 13:43:20 | DEBUG    | hf_rubert_baseline |   batch 250 | loss 0.6131 | lr 1.99e-05 | GPU 2.87 GB
+2026-04-09 13:43:21 | INFO     | hf_rubert_baseline | Epoch 4/30 | train_loss 0.7359 | val_loss 1.0003 | train_UA 0.6990 | val_UA 0.6027 | val_F1 0.5716 | time 23.9s | ETA 1077.5s
+2026-04-09 13:43:41 | DEBUG    | hf_rubert_baseline |   batch 50 | loss 0.6054 | lr 1.99e-05 | GPU 2.87 GB
+2026-04-09 13:43:46 | DEBUG    | hf_rubert_baseline |   batch 100 | loss 0.4450 | lr 1.99e-05 | GPU 2.88 GB
+2026-04-09 13:43:51 | DEBUG    | hf_rubert_baseline |   batch 150 | loss 0.5956 | lr 1.98e-05 | GPU 2.88 GB
+2026-04-09 13:43:55 | DEBUG    | hf_rubert_baseline |   batch 200 | loss 0.6343 | lr 1.98e-05 | GPU 2.88 GB
+2026-04-09 13:43:59 | DEBUG    | hf_rubert_baseline |   batch 250 | loss 0.2456 | lr 1.97e-05 | GPU 2.87 GB
+2026-04-09 13:44:01 | INFO     | hf_rubert_baseline | Epoch 5/30 | train_loss 0.5704 | val_loss 1.2600 | train_UA 0.7724 | val_UA 0.5118 | val_F1 0.5031 | time 26.1s | ETA 1028.3s
+2026-04-09 13:44:19 | DEBUG    | hf_rubert_baseline |   batch 50 | loss 0.4014 | lr 1.97e-05 | GPU 2.87 GB
+2026-04-09 13:44:23 | DEBUG    | hf_rubert_baseline |   batch 100 | loss 0.2241 | lr 1.96e-05 | GPU 2.87 GB
+2026-04-09 13:44:28 | DEBUG    | hf_rubert_baseline |   batch 150 | loss 0.4270 | lr 1.96e-05 | GPU 2.87 GB
+2026-04-09 13:44:32 | DEBUG    | hf_rubert_baseline |   batch 200 | loss 0.4186 | lr 1.95e-05 | GPU 2.87 GB
+2026-04-09 13:44:37 | DEBUG    | hf_rubert_baseline |   batch 250 | loss 0.2589 | lr 1.94e-05 | GPU 2.87 GB
+2026-04-09 13:44:39 | INFO     | hf_rubert_baseline | Epoch 6/30 | train_loss 0.4535 | val_loss 1.3905 | train_UA 0.8326 | val_UA 0.5175 | val_F1 0.5161 | time 25.3s | ETA 971.9s
+2026-04-09 13:44:56 | DEBUG    | hf_rubert_baseline |   batch 50 | loss 0.6664 | lr 1.93e-05 | GPU 2.87 GB
+2026-04-09 13:45:00 | DEBUG    | hf_rubert_baseline |   batch 100 | loss 0.3590 | lr 1.92e-05 | GPU 2.87 GB
+2026-04-09 13:45:05 | DEBUG    | hf_rubert_baseline |   batch 150 | loss 0.1634 | lr 1.91e-05 | GPU 2.87 GB
+2026-04-09 13:45:09 | DEBUG    | hf_rubert_baseline |   batch 200 | loss 0.0906 | lr 1.91e-05 | GPU 2.87 GB
+2026-04-09 13:45:13 | DEBUG    | hf_rubert_baseline |   batch 250 | loss 0.3007 | lr 1.90e-05 | GPU 2.87 GB
+2026-04-09 13:45:15 | INFO     | hf_rubert_baseline | Epoch 7/30 | train_loss 0.3251 | val_loss 1.6183 | train_UA 0.8913 | val_UA 0.4904 | val_F1 0.4975 | time 24.9s | ETA 919.2s
+2026-04-09 13:45:33 | DEBUG    | hf_rubert_baseline |   batch 50 | loss 0.2181 | lr 1.88e-05 | GPU 2.87 GB
+2026-04-09 13:45:38 | DEBUG    | hf_rubert_baseline |   batch 100 | loss 0.1170 | lr 1.87e-05 | GPU 2.87 GB
+2026-04-09 13:45:42 | DEBUG    | hf_rubert_baseline |   batch 150 | loss 0.2725 | lr 1.86e-05 | GPU 2.87 GB
+2026-04-09 13:45:47 | DEBUG    | hf_rubert_baseline |   batch 200 | loss 0.0508 | lr 1.85e-05 | GPU 2.88 GB
+2026-04-09 13:45:52 | DEBUG    | hf_rubert_baseline |   batch 250 | loss 0.0345 | lr 1.84e-05 | GPU 2.87 GB
+2026-04-09 13:45:54 | INFO     | hf_rubert_baseline | Epoch 8/30 | train_loss 0.2306 | val_loss 1.9028 | train_UA 0.9329 | val_UA 0.5269 | val_F1 0.5209 | time 26.4s | ETA 875.4s
+2026-04-09 13:46:12 | DEBUG    | hf_rubert_baseline |   batch 50 | loss 0.0265 | lr 1.82e-05 | GPU 2.88 GB
+2026-04-09 13:46:16 | DEBUG    | hf_rubert_baseline |   batch 100 | loss 0.4477 | lr 1.81e-05 | GPU 2.88 GB
+2026-04-09 13:46:21 | DEBUG    | hf_rubert_baseline |   batch 150 | loss 0.0813 | lr 1.80e-05 | GPU 2.87 GB
+2026-04-09 13:46:25 | DEBUG    | hf_rubert_baseline |   batch 200 | loss 0.2021 | lr 1.78e-05 | GPU 2.88 GB
+2026-04-09 13:46:30 | DEBUG    | hf_rubert_baseline |   batch 250 | loss 0.1598 | lr 1.77e-05 | GPU 2.87 GB
+2026-04-09 13:46:32 | INFO     | hf_rubert_baseline | Epoch 9/30 | train_loss 0.1749 | val_loss 2.1655 | train_UA 0.9522 | val_UA 0.5273 | val_F1 0.5258 | time 26.0s | ETA 831.6s
+2026-04-09 13:46:44 | INFO     | hf_rubert_baseline | Early stopping at epoch 9
+2026-04-09 13:46:44 | INFO     | hf_rubert_baseline | ============================================================
+2026-04-09 13:46:44 | INFO     | hf_rubert_baseline | Training complete in 6.1 min
+2026-04-09 13:46:44 | INFO     | hf_rubert_baseline | Best val UA: 0.6027
+2026-04-09 13:46:44 | INFO     | hf_rubert_baseline | 
+Final validation metrics:
+2026-04-09 13:46:44 | INFO     | hf_rubert_baseline | WA:       0.5203
+UA:       0.5273
+Macro F1: 0.5258
+Per-class F1:
+  angry        0.6591
+  sad          0.3509
+  neutral      0.5477
+  positive     0.5455
+2026-04-09 13:46:44 | INFO     | hf_rubert_baseline | Metrics saved to C:\Users\Meric\Desktop\VKR\Code\results\metrics\hf_rubert_baseline_seed42.json

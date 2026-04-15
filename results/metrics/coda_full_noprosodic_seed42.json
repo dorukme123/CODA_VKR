@@ -1,0 +1,55 @@
+{
+  "model": "coda_full_noprosodic",
+  "variant": "full",
+  "seed": 42,
+  "best_val_ua": 0.8330525544739539,
+  "final_val_metrics": {
+    "weighted_accuracy": 0.831855762526148,
+    "unweighted_accuracy": 0.8330525544739539,
+    "macro_f1": 0.7850779350560353,
+    "per_class_f1": {
+      "angry": 0.8072998430141287,
+      "sad": 0.7115749525616698,
+      "neutral": 0.8771251627154747,
+      "positive": 0.7443117819328677
+    },
+    "confusion_matrix": [
+      [
+        2057,
+        23,
+        158,
+        75
+      ],
+      [
+        24,
+        1875,
+        567,
+        40
+      ],
+      [
+        626,
+        843,
+        11118,
+        754
+      ],
+      [
+        76,
+        23,
+        167,
+        1652
+      ]
+    ]
+  },
+  "total_time_sec": null,
+  "config": {
+    "model_name": "coda_full_noprosodic",
+    "variant": "full",
+    "seed": 42,
+    "max_samples": null,
+    "batch_size": 16,
+    "lr": 0.0001,
+    "freeze_bert": true,
+    "weight_method": "sqrt_inverse"
+  },
+  "note": "Extracted from epoch_005 checkpoint (training was interrupted at epoch 5/30)"
+}

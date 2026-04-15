@@ -1,0 +1,43 @@
+{
+  "model": "coda_full_noprosodic",
+  "checkpoint": "results/checkpoints/coda_full_noprosodic/epoch_005.pt",
+  "test_manifest": "results/preprocessed/dusha/crowd_test/manifest.jsonl",
+  "test_samples": 16814,
+  "metrics": {
+    "weighted_accuracy": 0.8056381586772927,
+    "unweighted_accuracy": 0.80831439770699,
+    "macro_f1": 0.7586559897863461,
+    "per_class_f1": {
+      "angry": 0.7816091954022989,
+      "sad": 0.7053216838760922,
+      "neutral": 0.8542995169082126,
+      "positive": 0.6933935629587803
+    },
+    "confusion_matrix": [
+      [
+        1700,
+        21,
+        177,
+        104
+      ],
+      [
+        32,
+        1776,
+        640,
+        38
+      ],
+      [
+        571,
+        741,
+        8842,
+        741
+      ],
+      [
+        45,
+        12,
+        146,
+        1228
+      ]
+    ]
+  }
+}

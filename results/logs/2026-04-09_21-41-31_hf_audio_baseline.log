@@ -1,0 +1,10 @@
+2026-04-09 21:41:31 | INFO     | hf_audio_baseline | Log file: C:\Users\Meric\Desktop\VKR\Code\results\logs\2026-04-09_21-41-31_hf_audio_baseline.log
+2026-04-09 21:41:31 | INFO     | hf_audio_baseline | ============================================================
+2026-04-09 21:41:31 | INFO     | hf_audio_baseline | Training: hf_audio_baseline
+2026-04-09 21:41:31 | INFO     | hf_audio_baseline | Device: cuda
+2026-04-09 21:41:31 | INFO     | hf_audio_baseline | Seed: 42
+2026-04-09 21:41:31 | INFO     | hf_audio_baseline | Dry run: False
+2026-04-09 21:41:31 | INFO     | hf_audio_baseline | Max samples: None
+2026-04-09 21:41:31 | INFO     | hf_audio_baseline | Epochs: 30 | Batch: 32 | LR: 1.00e-04
+2026-04-09 21:41:31 | INFO     | hf_audio_baseline | Prosodic: True
+2026-04-09 21:41:31 | INFO     | hf_audio_baseline | ============================================================

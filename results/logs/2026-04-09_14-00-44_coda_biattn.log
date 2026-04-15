@@ -1,0 +1,25 @@
+2026-04-09 14:00:44 | INFO     | coda_biattn | Log file: C:\Users\Meric\Desktop\VKR\Code\results\logs\2026-04-09_14-00-44_coda_biattn.log
+2026-04-09 14:00:44 | INFO     | coda_biattn | ============================================================
+2026-04-09 14:00:44 | INFO     | coda_biattn | Training: CODA-BIATTN
+2026-04-09 14:00:44 | INFO     | coda_biattn | Device: cuda | Seed: 42 | Dry run: True
+2026-04-09 14:00:44 | INFO     | coda_biattn | Epochs: 2 | Batch: 4 | LR: 1.00e-04
+2026-04-09 14:00:44 | INFO     | coda_biattn | Freeze BERT: True | Prosodic: True
+2026-04-09 14:00:44 | INFO     | coda_biattn | ============================================================
+2026-04-09 14:00:44 | INFO     | coda_biattn | Dataset: 4 samples
+2026-04-09 14:00:44 | INFO     | coda_biattn | Train: 3 | Val: 1
+2026-04-09 14:00:44 | INFO     | coda_biattn | Class weights: ['1.000', '1.000', '1.000', '1.000']
+2026-04-09 14:00:48 | INFO     | coda_biattn | Total params: 180,487,366 | Trainable: 2,180,038
+2026-04-09 14:00:50 | INFO     | coda_biattn | Epoch 1/2 | train_loss 4.8754 | val_loss 4.1107 | train_UA 0.3333 | val_UA 0.0000 | val_F1 0.0000 | time 0.6s | ETA 0.6s
+2026-04-09 14:00:52 | INFO     | coda_biattn | Epoch 2/2 | train_loss 2.5297 | val_loss 4.1107 | train_UA 0.3333 | val_UA 0.0000 | val_F1 0.0000 | time 0.1s | ETA 0.0s
+2026-04-09 14:00:54 | INFO     | coda_biattn | ============================================================
+2026-04-09 14:00:54 | INFO     | coda_biattn | Training complete in 0.1 min
+2026-04-09 14:00:54 | INFO     | coda_biattn | Best val UA: 0.0000
+2026-04-09 14:00:54 | INFO     | coda_biattn | 
+Final validation metrics:
+2026-04-09 14:00:54 | INFO     | coda_biattn | WA:       0.0000
+UA:       0.0000
+Macro F1: 0.0000
+Per-class F1:
+  angry        0.0000
+  sad          0.0000
+2026-04-09 14:00:54 | INFO     | coda_biattn | Metrics saved to C:\Users\Meric\Desktop\VKR\Code\results\metrics\coda_biattn_seed42.json

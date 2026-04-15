@@ -1,0 +1,89 @@
+{
+  "model": "coda_full",
+  "checkpoint": "results/checkpoints/coda_full/epoch_008.pt",
+  "features": [
+    "H(a2t)",
+    "H(t2a)",
+    "pred_entropy",
+    "max_prob"
+  ],
+  "train_samples_for_if": 20000,
+  "test_matched": 16814,
+  "test_mismatched": 16814,
+  "isolation_forest": {
+    "contamination": 0.05,
+    "precision": 0.6323343182777543,
+    "recall": 0.0890924229808493,
+    "f1": 0.15617995099827972
+  },
+  "mlp_head": {
+    "best_threshold": 0.1,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666
+  },
+  "prediction_entropy": {
+    "best_threshold": 0.027477936819195747,
+    "precision": 0.5120164870006341,
+    "recall": 0.9604496253122398,
+    "f1": 0.6679488770318898
+  },
+  "feature_stats": {
+    "H(a2t)": {
+      "train": {
+        "mean": 1.831835389137268,
+        "std": 0.35210371017456055
+      },
+      "matched": {
+        "mean": 1.8460172414779663,
+        "std": 0.342547744512558
+      },
+      "mismatched": {
+        "mean": 1.8638646602630615,
+        "std": 0.37006473541259766
+      }
+    },
+    "H(t2a)": {
+      "train": {
+        "mean": 4.924407482147217,
+        "std": 0.28862687945365906
+      },
+      "matched": {
+        "mean": 4.961032390594482,
+        "std": 0.28620201349258423
+      },
+      "mismatched": {
+        "mean": 4.949548244476318,
+        "std": 0.2865663766860962
+      }
+    },
+    "pred_entropy": {
+      "train": {
+        "mean": 0.3003944456577301,
+        "std": 0.2693942189216614
+      },
+      "matched": {
+        "mean": 0.32268163561820984,
+        "std": 0.2754330039024353
+      },
+      "mismatched": {
+        "mean": 0.4266384541988373,
+        "std": 0.2912563383579254
+      }
+    },
+    "max_prob": {
+      "train": {
+        "mean": 0.8822106719017029,
+        "std": 0.14321672916412354
+      },
+      "matched": {
+        "mean": 0.8710378408432007,
+        "std": 0.14831948280334473
+      },
+      "mismatched": {
+        "mean": 0.8257134556770325,
+        "std": 0.15966150164604187
+      }
+    }
+  }
+}

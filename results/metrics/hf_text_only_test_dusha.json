@@ -1,0 +1,43 @@
+{
+  "model": "hf_text_only",
+  "checkpoint": "results/checkpoints/hf_rubert_baseline/epoch_005.pt",
+  "test_manifest": "results/preprocessed/dusha/crowd_test/manifest.jsonl",
+  "test_samples": 16814,
+  "metrics": {
+    "weighted_accuracy": 0.6700963482811942,
+    "unweighted_accuracy": 0.5940901727582675,
+    "macro_f1": 0.5533440814331528,
+    "per_class_f1": {
+      "angry": 0.6657323055360898,
+      "sad": 0.23229912490055687,
+      "neutral": 0.7677638213991015,
+      "positive": 0.5475810738968634
+    },
+    "confusion_matrix": [
+      [
+        1425,
+        135,
+        383,
+        59
+      ],
+      [
+        95,
+        438,
+        1840,
+        113
+      ],
+      [
+        720,
+        672,
+        8374,
+        1129
+      ],
+      [
+        39,
+        40,
+        322,
+        1030
+      ]
+    ]
+  }
+}

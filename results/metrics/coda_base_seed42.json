@@ -1,0 +1,54 @@
+{
+  "model": "coda_base",
+  "variant": "base",
+  "seed": 42,
+  "best_val_ua": 0.8290434248125,
+  "final_val_metrics": {
+    "weighted_accuracy": 0.8204004382906664,
+    "unweighted_accuracy": 0.8290434248125,
+    "macro_f1": 0.7755376252351669,
+    "per_class_f1": {
+      "angry": 0.79916476841306,
+      "sad": 0.6861674008810573,
+      "neutral": 0.8670580248392636,
+      "positive": 0.7497603068072867
+    },
+    "confusion_matrix": [
+      [
+        2105,
+        25,
+        143,
+        40
+      ],
+      [
+        53,
+        1947,
+        482,
+        24
+      ],
+      [
+        691,
+        1168,
+        10856,
+        626
+      ],
+      [
+        106,
+        29,
+        219,
+        1564
+      ]
+    ]
+  },
+  "total_time_sec": 4504.171036720276,
+  "config": {
+    "model_name": "coda_base",
+    "variant": "base",
+    "seed": 42,
+    "max_samples": null,
+    "batch_size": 16,
+    "lr": 0.0001,
+    "freeze_bert": true,
+    "weight_method": "sqrt_inverse"
+  }
+}

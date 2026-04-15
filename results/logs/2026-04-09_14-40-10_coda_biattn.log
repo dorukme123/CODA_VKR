@@ -1,0 +1,92 @@
+2026-04-09 14:40:10 | INFO     | coda_biattn | Log file: C:\Users\Meric\Desktop\VKR\Code\results\logs\2026-04-09_14-40-10_coda_biattn.log
+2026-04-09 14:40:10 | INFO     | coda_biattn | ============================================================
+2026-04-09 14:40:10 | INFO     | coda_biattn | Training: CODA-BIATTN
+2026-04-09 14:40:10 | INFO     | coda_biattn | Device: cuda | Seed: 42 | Dry run: False
+2026-04-09 14:40:10 | INFO     | coda_biattn | Epochs: 30 | Batch: 16 | LR: 1.00e-04
+2026-04-09 14:40:10 | INFO     | coda_biattn | Freeze BERT: True | Prosodic: True
+2026-04-09 14:40:10 | INFO     | coda_biattn | ============================================================
+2026-04-09 14:40:10 | INFO     | coda_biattn | Dataset: 4671 samples
+2026-04-09 14:40:10 | INFO     | coda_biattn | Train: 4204 | Val: 467
+2026-04-09 14:40:11 | INFO     | coda_biattn | Class weights: ['1.111', '0.887', '0.496', '1.506']
+2026-04-09 14:40:15 | INFO     | coda_biattn | Total params: 180,487,366 | Trainable: 2,180,038
+2026-04-09 14:40:49 | DEBUG    | coda_biattn |   batch 50 | loss 2.8575 | grad 1.6054 | lr 4.95e-06 | GPU 0.78 GB
+2026-04-09 14:40:51 | DEBUG    | coda_biattn |   batch 100 | loss 1.8506 | grad 1.6225 | lr 7.76e-06 | GPU 0.78 GB
+2026-04-09 14:40:53 | DEBUG    | coda_biattn |   batch 150 | loss 2.7133 | grad 1.6461 | lr 1.23e-05 | GPU 0.79 GB
+2026-04-09 14:40:55 | DEBUG    | coda_biattn |   batch 200 | loss 2.7641 | grad 1.6188 | lr 1.85e-05 | GPU 0.79 GB
+2026-04-09 14:40:57 | DEBUG    | coda_biattn |   batch 250 | loss 1.8407 | grad 1.6438 | lr 2.59e-05 | GPU 0.78 GB
+2026-04-09 14:41:27 | INFO     | coda_biattn | Epoch 1/30 | train_loss 2.4808 | val_loss 1.2833 | train_UA 0.2539 | val_UA 0.4345 | val_F1 0.4245 | time 71.0s | ETA 2059.3s
+2026-04-09 14:41:32 | DEBUG    | coda_biattn |   batch 50 | loss 1.4934 | grad 1.6300 | lr 3.68e-05 | GPU 0.79 GB
+2026-04-09 14:41:34 | DEBUG    | coda_biattn |   batch 100 | loss 1.8817 | grad 1.6719 | lr 4.61e-05 | GPU 0.78 GB
+2026-04-09 14:41:36 | DEBUG    | coda_biattn |   batch 150 | loss 0.9401 | grad 1.7155 | lr 5.56e-05 | GPU 0.79 GB
+2026-04-09 14:41:38 | DEBUG    | coda_biattn |   batch 200 | loss 1.1316 | grad 1.6825 | lr 6.50e-05 | GPU 0.79 GB
+2026-04-09 14:41:40 | DEBUG    | coda_biattn |   batch 250 | loss 0.9740 | grad 1.7448 | lr 7.39e-05 | GPU 0.79 GB
+2026-04-09 14:41:42 | INFO     | coda_biattn | Epoch 2/30 | train_loss 1.4955 | val_loss 0.9542 | train_UA 0.4051 | val_UA 0.5736 | val_F1 0.5812 | time 12.0s | ETA 1192.4s
+2026-04-09 14:41:46 | DEBUG    | coda_biattn |   batch 50 | loss 0.8282 | grad 1.9229 | lr 8.39e-05 | GPU 0.78 GB
+2026-04-09 14:41:48 | DEBUG    | coda_biattn |   batch 100 | loss 0.7694 | grad 1.7929 | lr 9.03e-05 | GPU 0.79 GB
+2026-04-09 14:41:50 | DEBUG    | coda_biattn |   batch 150 | loss 0.9208 | grad 1.9394 | lr 9.53e-05 | GPU 0.79 GB
+2026-04-09 14:41:52 | DEBUG    | coda_biattn |   batch 200 | loss 0.5180 | grad 1.9430 | lr 9.85e-05 | GPU 0.78 GB
+2026-04-09 14:41:54 | DEBUG    | coda_biattn |   batch 250 | loss 0.8445 | grad 1.8600 | lr 9.99e-05 | GPU 0.79 GB
+2026-04-09 14:41:56 | INFO     | coda_biattn | Epoch 3/30 | train_loss 0.9234 | val_loss 0.8295 | train_UA 0.6144 | val_UA 0.6812 | val_F1 0.6315 | time 11.9s | ETA 893.6s
+2026-04-09 14:42:00 | DEBUG    | coda_biattn |   batch 50 | loss 0.8043 | grad 1.9405 | lr 1.00e-04 | GPU 0.78 GB
+2026-04-09 14:42:02 | DEBUG    | coda_biattn |   batch 100 | loss 0.4799 | grad 2.1637 | lr 1.00e-04 | GPU 0.78 GB
+2026-04-09 14:42:04 | DEBUG    | coda_biattn |   batch 150 | loss 0.5026 | grad 1.9170 | lr 9.99e-05 | GPU 0.79 GB
+2026-04-09 14:42:06 | DEBUG    | coda_biattn |   batch 200 | loss 0.7402 | grad 2.1578 | lr 9.98e-05 | GPU 0.78 GB
+2026-04-09 14:42:08 | DEBUG    | coda_biattn |   batch 250 | loss 0.5409 | grad 2.2017 | lr 9.97e-05 | GPU 0.79 GB
+2026-04-09 14:42:10 | INFO     | coda_biattn | Epoch 4/30 | train_loss 0.7206 | val_loss 0.7827 | train_UA 0.7209 | val_UA 0.6766 | val_F1 0.6268 | time 12.0s | ETA 735.9s
+2026-04-09 14:42:17 | DEBUG    | coda_biattn |   batch 50 | loss 0.5574 | grad 2.0033 | lr 9.95e-05 | GPU 0.78 GB
+2026-04-09 14:42:19 | DEBUG    | coda_biattn |   batch 100 | loss 0.5518 | grad 2.0841 | lr 9.94e-05 | GPU 0.79 GB
+2026-04-09 14:42:21 | DEBUG    | coda_biattn |   batch 150 | loss 0.8749 | grad 2.1879 | lr 9.92e-05 | GPU 0.79 GB
+2026-04-09 14:42:24 | DEBUG    | coda_biattn |   batch 200 | loss 0.7675 | grad 2.0771 | lr 9.90e-05 | GPU 0.78 GB
+2026-04-09 14:42:26 | DEBUG    | coda_biattn |   batch 250 | loss 0.4141 | grad 2.3084 | lr 9.87e-05 | GPU 0.78 GB
+2026-04-09 14:42:27 | INFO     | coda_biattn | Epoch 5/30 | train_loss 0.6106 | val_loss 0.8974 | train_UA 0.7647 | val_UA 0.6690 | val_F1 0.6983 | time 12.4s | ETA 653.2s
+2026-04-09 14:42:33 | DEBUG    | coda_biattn |   batch 50 | loss 0.5504 | grad 2.0841 | lr 9.84e-05 | GPU 0.79 GB
+2026-04-09 14:42:36 | DEBUG    | coda_biattn |   batch 100 | loss 0.6230 | grad 2.3245 | lr 9.81e-05 | GPU 0.79 GB
+2026-04-09 14:42:38 | DEBUG    | coda_biattn |   batch 150 | loss 0.6422 | grad 2.2340 | lr 9.78e-05 | GPU 0.79 GB
+2026-04-09 14:42:40 | DEBUG    | coda_biattn |   batch 200 | loss 0.4765 | grad 2.2414 | lr 9.74e-05 | GPU 0.79 GB
+2026-04-09 14:42:42 | DEBUG    | coda_biattn |   batch 250 | loss 0.5297 | grad 2.0852 | lr 9.71e-05 | GPU 0.79 GB
+2026-04-09 14:42:44 | INFO     | coda_biattn | Epoch 6/30 | train_loss 0.5456 | val_loss 0.7385 | train_UA 0.7894 | val_UA 0.7302 | val_F1 0.7207 | time 12.6s | ETA 589.2s
+2026-04-09 14:42:50 | DEBUG    | coda_biattn |   batch 50 | loss 0.1608 | grad 2.4070 | lr 9.66e-05 | GPU 0.79 GB
+2026-04-09 14:42:52 | DEBUG    | coda_biattn |   batch 100 | loss 0.7931 | grad 2.2735 | lr 9.62e-05 | GPU 0.79 GB
+2026-04-09 14:42:54 | DEBUG    | coda_biattn |   batch 150 | loss 0.4107 | grad 2.2534 | lr 9.57e-05 | GPU 0.79 GB
+2026-04-09 14:42:56 | DEBUG    | coda_biattn |   batch 200 | loss 0.2414 | grad 2.5705 | lr 9.53e-05 | GPU 0.79 GB
+2026-04-09 14:42:58 | DEBUG    | coda_biattn |   batch 250 | loss 0.4498 | grad 2.5153 | lr 9.48e-05 | GPU 0.78 GB
+2026-04-09 14:43:00 | INFO     | coda_biattn | Epoch 7/30 | train_loss 0.4548 | val_loss 0.7686 | train_UA 0.8305 | val_UA 0.7162 | val_F1 0.7041 | time 12.4s | ETA 537.0s
+2026-04-09 14:43:06 | DEBUG    | coda_biattn |   batch 50 | loss 0.2155 | grad 2.4956 | lr 9.42e-05 | GPU 0.79 GB
+2026-04-09 14:43:08 | DEBUG    | coda_biattn |   batch 100 | loss 0.2993 | grad 2.4478 | lr 9.36e-05 | GPU 0.79 GB
+2026-04-09 14:43:10 | DEBUG    | coda_biattn |   batch 150 | loss 0.3228 | grad 2.7097 | lr 9.31e-05 | GPU 0.78 GB
+2026-04-09 14:43:13 | DEBUG    | coda_biattn |   batch 200 | loss 0.6121 | grad 2.4091 | lr 9.25e-05 | GPU 0.78 GB
+2026-04-09 14:43:15 | DEBUG    | coda_biattn |   batch 250 | loss 0.0828 | grad 2.3582 | lr 9.19e-05 | GPU 0.79 GB
+2026-04-09 14:43:16 | INFO     | coda_biattn | Epoch 8/30 | train_loss 0.4002 | val_loss 0.8742 | train_UA 0.8507 | val_UA 0.7120 | val_F1 0.6823 | time 12.4s | ETA 494.3s
+2026-04-09 14:43:22 | DEBUG    | coda_biattn |   batch 50 | loss 0.4293 | grad 2.5202 | lr 9.11e-05 | GPU 0.79 GB
+2026-04-09 14:43:24 | DEBUG    | coda_biattn |   batch 100 | loss 0.1077 | grad 2.6621 | lr 9.05e-05 | GPU 0.79 GB
+2026-04-09 14:43:27 | DEBUG    | coda_biattn |   batch 150 | loss 0.3293 | grad 2.6011 | lr 8.98e-05 | GPU 0.78 GB
+2026-04-09 14:43:29 | DEBUG    | coda_biattn |   batch 200 | loss 0.1702 | grad 2.7409 | lr 8.92e-05 | GPU 0.79 GB
+2026-04-09 14:43:31 | DEBUG    | coda_biattn |   batch 250 | loss 0.0978 | grad 2.4236 | lr 8.85e-05 | GPU 0.79 GB
+2026-04-09 14:43:32 | INFO     | coda_biattn | Epoch 9/30 | train_loss 0.3207 | val_loss 0.9395 | train_UA 0.8793 | val_UA 0.7119 | val_F1 0.6721 | time 12.7s | ETA 457.1s
+2026-04-09 14:43:38 | DEBUG    | coda_biattn |   batch 50 | loss 0.1608 | grad 2.4836 | lr 8.76e-05 | GPU 0.79 GB
+2026-04-09 14:43:40 | DEBUG    | coda_biattn |   batch 100 | loss 0.1632 | grad 2.3681 | lr 8.68e-05 | GPU 0.79 GB
+2026-04-09 14:43:42 | DEBUG    | coda_biattn |   batch 150 | loss 0.1709 | grad 2.6699 | lr 8.61e-05 | GPU 0.78 GB
+2026-04-09 14:43:44 | DEBUG    | coda_biattn |   batch 200 | loss 0.4400 | grad 2.6743 | lr 8.53e-05 | GPU 0.79 GB
+2026-04-09 14:43:47 | DEBUG    | coda_biattn |   batch 250 | loss 0.3505 | grad 2.6772 | lr 8.45e-05 | GPU 0.79 GB
+2026-04-09 14:43:48 | INFO     | coda_biattn | Epoch 10/30 | train_loss 0.2825 | val_loss 1.0064 | train_UA 0.8972 | val_UA 0.7173 | val_F1 0.6906 | time 12.3s | ETA 423.2s
+2026-04-09 14:43:54 | DEBUG    | coda_biattn |   batch 50 | loss 0.0317 | grad 2.7431 | lr 8.35e-05 | GPU 0.79 GB
+2026-04-09 14:43:56 | DEBUG    | coda_biattn |   batch 100 | loss 0.4791 | grad 2.6444 | lr 8.27e-05 | GPU 0.79 GB
+2026-04-09 14:43:58 | DEBUG    | coda_biattn |   batch 150 | loss 0.1049 | grad 2.7488 | lr 8.18e-05 | GPU 0.78 GB
+2026-04-09 14:44:00 | DEBUG    | coda_biattn |   batch 200 | loss 0.1466 | grad 2.6576 | lr 8.09e-05 | GPU 0.79 GB
+2026-04-09 14:44:03 | DEBUG    | coda_biattn |   batch 250 | loss 0.4506 | grad 2.5462 | lr 8.01e-05 | GPU 0.79 GB
+2026-04-09 14:44:04 | INFO     | coda_biattn | Epoch 11/30 | train_loss 0.2319 | val_loss 1.1035 | train_UA 0.9161 | val_UA 0.7198 | val_F1 0.6881 | time 12.4s | ETA 393.0s
+2026-04-09 14:44:07 | INFO     | coda_biattn | Early stopping at epoch 11
+2026-04-09 14:44:07 | INFO     | coda_biattn | ============================================================
+2026-04-09 14:44:07 | INFO     | coda_biattn | Training complete in 3.8 min
+2026-04-09 14:44:07 | INFO     | coda_biattn | Best val UA: 0.7302
+2026-04-09 14:44:07 | INFO     | coda_biattn | 
+Final validation metrics:
+2026-04-09 14:44:07 | INFO     | coda_biattn | WA:       0.6852
+UA:       0.7198
+Macro F1: 0.6881
+Per-class F1:
+  angry        0.7500
+  sad          0.6667
+  neutral      0.6588
+  positive     0.6769
+2026-04-09 14:44:07 | INFO     | coda_biattn | Metrics saved to C:\Users\Meric\Desktop\VKR\Code\results\metrics\coda_biattn_seed42.json

@@ -1,0 +1,104 @@
+2026-04-09 14:28:49 | INFO     | coda_base | Log file: C:\Users\Meric\Desktop\VKR\Code\results\logs\2026-04-09_14-28-49_coda_base.log
+2026-04-09 14:28:49 | INFO     | coda_base | ============================================================
+2026-04-09 14:28:49 | INFO     | coda_base | Training: CODA-BASE
+2026-04-09 14:28:49 | INFO     | coda_base | Device: cuda | Seed: 42 | Dry run: False
+2026-04-09 14:28:49 | INFO     | coda_base | Epochs: 30 | Batch: 16 | LR: 1.00e-04
+2026-04-09 14:28:49 | INFO     | coda_base | Freeze BERT: True | Prosodic: True
+2026-04-09 14:28:49 | INFO     | coda_base | ============================================================
+2026-04-09 14:28:50 | INFO     | coda_base | Dataset: 4671 samples
+2026-04-09 14:28:50 | INFO     | coda_base | Train: 4204 | Val: 467
+2026-04-09 14:28:50 | INFO     | coda_base | Class weights: ['1.111', '0.887', '0.496', '1.506']
+2026-04-09 14:28:54 | INFO     | coda_base | Total params: 178,907,846 | Trainable: 600,518
+2026-04-09 14:29:27 | DEBUG    | coda_base |   batch 50 | loss 2.9070 | grad 1.5340 | lr 4.95e-06 | GPU 0.77 GB
+2026-04-09 14:29:29 | DEBUG    | coda_base |   batch 100 | loss 1.8529 | grad 1.5253 | lr 7.76e-06 | GPU 0.76 GB
+2026-04-09 14:29:30 | DEBUG    | coda_base |   batch 150 | loss 1.9724 | grad 1.5091 | lr 1.23e-05 | GPU 0.76 GB
+2026-04-09 14:29:32 | DEBUG    | coda_base |   batch 200 | loss 1.7777 | grad 1.4928 | lr 1.85e-05 | GPU 0.76 GB
+2026-04-09 14:29:34 | DEBUG    | coda_base |   batch 250 | loss 2.1131 | grad 1.5144 | lr 2.59e-05 | GPU 0.76 GB
+2026-04-09 14:30:04 | INFO     | coda_base | Epoch 1/30 | train_loss 2.1011 | val_loss 1.3881 | train_UA 0.2572 | val_UA 0.2550 | val_F1 0.1647 | time 68.7s | ETA 1991.2s
+2026-04-09 14:30:08 | DEBUG    | coda_base |   batch 50 | loss 1.5268 | grad 1.5183 | lr 3.68e-05 | GPU 0.76 GB
+2026-04-09 14:30:09 | DEBUG    | coda_base |   batch 100 | loss 1.9167 | grad 1.4857 | lr 4.61e-05 | GPU 0.77 GB
+2026-04-09 14:30:11 | DEBUG    | coda_base |   batch 150 | loss 1.8011 | grad 1.4979 | lr 5.56e-05 | GPU 0.76 GB
+2026-04-09 14:30:13 | DEBUG    | coda_base |   batch 200 | loss 1.6187 | grad 1.5242 | lr 6.50e-05 | GPU 0.76 GB
+2026-04-09 14:30:14 | DEBUG    | coda_base |   batch 250 | loss 1.2162 | grad 1.5243 | lr 7.39e-05 | GPU 0.76 GB
+2026-04-09 14:30:16 | INFO     | coda_base | Epoch 2/30 | train_loss 1.6648 | val_loss 1.2311 | train_UA 0.2948 | val_UA 0.4869 | val_F1 0.4010 | time 9.7s | ETA 1121.9s
+2026-04-09 14:30:20 | DEBUG    | coda_base |   batch 50 | loss 1.1951 | grad 1.5163 | lr 8.39e-05 | GPU 0.76 GB
+2026-04-09 14:30:22 | DEBUG    | coda_base |   batch 100 | loss 1.3281 | grad 1.4765 | lr 9.03e-05 | GPU 0.76 GB
+2026-04-09 14:30:23 | DEBUG    | coda_base |   batch 150 | loss 1.2927 | grad 1.4665 | lr 9.53e-05 | GPU 0.76 GB
+2026-04-09 14:30:25 | DEBUG    | coda_base |   batch 200 | loss 0.8697 | grad 1.4352 | lr 9.85e-05 | GPU 0.76 GB
+2026-04-09 14:30:27 | DEBUG    | coda_base |   batch 250 | loss 0.6737 | grad 1.4203 | lr 9.99e-05 | GPU 0.76 GB
+2026-04-09 14:30:28 | INFO     | coda_base | Epoch 3/30 | train_loss 1.1793 | val_loss 0.9845 | train_UA 0.4742 | val_UA 0.5835 | val_F1 0.5294 | time 9.7s | ETA 832.8s
+2026-04-09 14:30:32 | DEBUG    | coda_base |   batch 50 | loss 1.1012 | grad 1.4634 | lr 1.00e-04 | GPU 0.76 GB
+2026-04-09 14:30:34 | DEBUG    | coda_base |   batch 100 | loss 1.2103 | grad 1.4654 | lr 1.00e-04 | GPU 0.76 GB
+2026-04-09 14:30:35 | DEBUG    | coda_base |   batch 150 | loss 1.1310 | grad 1.4804 | lr 9.99e-05 | GPU 0.76 GB
+2026-04-09 14:30:37 | DEBUG    | coda_base |   batch 200 | loss 0.8025 | grad 1.4492 | lr 9.98e-05 | GPU 0.76 GB
+2026-04-09 14:30:38 | DEBUG    | coda_base |   batch 250 | loss 0.7605 | grad 1.4821 | lr 9.97e-05 | GPU 0.76 GB
+2026-04-09 14:30:40 | INFO     | coda_base | Epoch 4/30 | train_loss 0.9568 | val_loss 0.9300 | train_UA 0.5769 | val_UA 0.6276 | val_F1 0.5818 | time 9.6s | ETA 677.8s
+2026-04-09 14:30:46 | DEBUG    | coda_base |   batch 50 | loss 0.7543 | grad 1.4626 | lr 9.95e-05 | GPU 0.76 GB
+2026-04-09 14:30:47 | DEBUG    | coda_base |   batch 100 | loss 0.7098 | grad 1.5110 | lr 9.94e-05 | GPU 0.77 GB
+2026-04-09 14:30:49 | DEBUG    | coda_base |   batch 150 | loss 1.0669 | grad 1.5387 | lr 9.92e-05 | GPU 0.76 GB
+2026-04-09 14:30:51 | DEBUG    | coda_base |   batch 200 | loss 0.7458 | grad 1.4605 | lr 9.90e-05 | GPU 0.76 GB
+2026-04-09 14:30:52 | DEBUG    | coda_base |   batch 250 | loss 0.7549 | grad 1.6309 | lr 9.87e-05 | GPU 0.76 GB
+2026-04-09 14:30:54 | INFO     | coda_base | Epoch 5/30 | train_loss 0.8422 | val_loss 0.8809 | train_UA 0.6455 | val_UA 0.6518 | val_F1 0.6209 | time 9.7s | ETA 591.2s
+2026-04-09 14:31:00 | DEBUG    | coda_base |   batch 50 | loss 0.8041 | grad 1.4298 | lr 9.84e-05 | GPU 0.76 GB
+2026-04-09 14:31:01 | DEBUG    | coda_base |   batch 100 | loss 0.6657 | grad 1.5106 | lr 9.81e-05 | GPU 0.76 GB
+2026-04-09 14:31:03 | DEBUG    | coda_base |   batch 150 | loss 0.7270 | grad 1.5099 | lr 9.78e-05 | GPU 0.76 GB
+2026-04-09 14:31:04 | DEBUG    | coda_base |   batch 200 | loss 1.5946 | grad 1.6195 | lr 9.74e-05 | GPU 0.76 GB
+2026-04-09 14:31:06 | DEBUG    | coda_base |   batch 250 | loss 0.6751 | grad 1.5349 | lr 9.71e-05 | GPU 0.76 GB
+2026-04-09 14:31:07 | INFO     | coda_base | Epoch 6/30 | train_loss 0.7969 | val_loss 0.8346 | train_UA 0.6676 | val_UA 0.6700 | val_F1 0.6492 | time 9.4s | ETA 526.7s
+2026-04-09 14:31:13 | DEBUG    | coda_base |   batch 50 | loss 0.7122 | grad 1.6175 | lr 9.66e-05 | GPU 0.75 GB
+2026-04-09 14:31:14 | DEBUG    | coda_base |   batch 100 | loss 0.8015 | grad 1.5607 | lr 9.62e-05 | GPU 0.76 GB
+2026-04-09 14:31:16 | DEBUG    | coda_base |   batch 150 | loss 0.6311 | grad 1.5519 | lr 9.57e-05 | GPU 0.77 GB
+2026-04-09 14:31:17 | DEBUG    | coda_base |   batch 200 | loss 0.7251 | grad 1.4963 | lr 9.53e-05 | GPU 0.76 GB
+2026-04-09 14:31:19 | DEBUG    | coda_base |   batch 250 | loss 0.9430 | grad 1.5708 | lr 9.48e-05 | GPU 0.76 GB
+2026-04-09 14:31:20 | INFO     | coda_base | Epoch 7/30 | train_loss 0.7467 | val_loss 0.8429 | train_UA 0.6933 | val_UA 0.6634 | val_F1 0.6303 | time 9.5s | ETA 475.9s
+2026-04-09 14:31:26 | DEBUG    | coda_base |   batch 50 | loss 1.2820 | grad 1.5244 | lr 9.42e-05 | GPU 0.75 GB
+2026-04-09 14:31:27 | DEBUG    | coda_base |   batch 100 | loss 0.7628 | grad 1.6640 | lr 9.36e-05 | GPU 0.76 GB
+2026-04-09 14:31:29 | DEBUG    | coda_base |   batch 150 | loss 0.6792 | grad 1.5791 | lr 9.31e-05 | GPU 0.77 GB
+2026-04-09 14:31:31 | DEBUG    | coda_base |   batch 200 | loss 0.5083 | grad 1.6335 | lr 9.25e-05 | GPU 0.76 GB
+2026-04-09 14:31:32 | DEBUG    | coda_base |   batch 250 | loss 1.1291 | grad 1.6427 | lr 9.19e-05 | GPU 0.76 GB
+2026-04-09 14:31:34 | INFO     | coda_base | Epoch 8/30 | train_loss 0.7139 | val_loss 0.8220 | train_UA 0.7106 | val_UA 0.6742 | val_F1 0.6539 | time 9.8s | ETA 435.4s
+2026-04-09 14:31:40 | DEBUG    | coda_base |   batch 50 | loss 0.4920 | grad 1.5220 | lr 9.11e-05 | GPU 0.76 GB
+2026-04-09 14:31:42 | DEBUG    | coda_base |   batch 100 | loss 0.8538 | grad 1.4453 | lr 9.05e-05 | GPU 0.76 GB
+2026-04-09 14:31:43 | DEBUG    | coda_base |   batch 150 | loss 0.6896 | grad 1.5492 | lr 8.98e-05 | GPU 0.76 GB
+2026-04-09 14:31:45 | DEBUG    | coda_base |   batch 200 | loss 0.8357 | grad 1.6804 | lr 8.92e-05 | GPU 0.76 GB
+2026-04-09 14:31:47 | DEBUG    | coda_base |   batch 250 | loss 0.9219 | grad 1.5239 | lr 8.85e-05 | GPU 0.76 GB
+2026-04-09 14:31:48 | INFO     | coda_base | Epoch 9/30 | train_loss 0.6848 | val_loss 0.8587 | train_UA 0.7210 | val_UA 0.6641 | val_F1 0.6471 | time 9.7s | ETA 402.1s
+2026-04-09 14:31:53 | DEBUG    | coda_base |   batch 50 | loss 0.5204 | grad 1.6154 | lr 8.76e-05 | GPU 0.76 GB
+2026-04-09 14:31:55 | DEBUG    | coda_base |   batch 100 | loss 0.4530 | grad 1.5027 | lr 8.68e-05 | GPU 0.76 GB
+2026-04-09 14:31:56 | DEBUG    | coda_base |   batch 150 | loss 0.8805 | grad 1.5103 | lr 8.61e-05 | GPU 0.77 GB
+2026-04-09 14:31:58 | DEBUG    | coda_base |   batch 200 | loss 0.3885 | grad 1.6205 | lr 8.53e-05 | GPU 0.75 GB
+2026-04-09 14:32:00 | DEBUG    | coda_base |   batch 250 | loss 0.8999 | grad 1.6822 | lr 8.45e-05 | GPU 0.76 GB
+2026-04-09 14:32:01 | INFO     | coda_base | Epoch 10/30 | train_loss 0.6588 | val_loss 0.8409 | train_UA 0.7411 | val_UA 0.6665 | val_F1 0.6270 | time 9.6s | ETA 371.2s
+2026-04-09 14:32:07 | DEBUG    | coda_base |   batch 50 | loss 0.9337 | grad 1.5018 | lr 8.35e-05 | GPU 0.76 GB
+2026-04-09 14:32:08 | DEBUG    | coda_base |   batch 100 | loss 0.6024 | grad 1.6937 | lr 8.27e-05 | GPU 0.77 GB
+2026-04-09 14:32:10 | DEBUG    | coda_base |   batch 150 | loss 0.8631 | grad 1.6118 | lr 8.18e-05 | GPU 0.76 GB
+2026-04-09 14:32:11 | DEBUG    | coda_base |   batch 200 | loss 0.2834 | grad 1.6695 | lr 8.09e-05 | GPU 0.76 GB
+2026-04-09 14:32:13 | DEBUG    | coda_base |   batch 250 | loss 0.6184 | grad 1.4918 | lr 8.01e-05 | GPU 0.76 GB
+2026-04-09 14:32:14 | INFO     | coda_base | Epoch 11/30 | train_loss 0.6230 | val_loss 0.8719 | train_UA 0.7510 | val_UA 0.6566 | val_F1 0.6345 | time 9.3s | ETA 343.1s
+2026-04-09 14:32:20 | DEBUG    | coda_base |   batch 50 | loss 0.5550 | grad 1.6785 | lr 7.89e-05 | GPU 0.76 GB
+2026-04-09 14:32:21 | DEBUG    | coda_base |   batch 100 | loss 0.3831 | grad 1.6399 | lr 7.80e-05 | GPU 0.76 GB
+2026-04-09 14:32:23 | DEBUG    | coda_base |   batch 150 | loss 0.4484 | grad 1.5496 | lr 7.71e-05 | GPU 0.77 GB
+2026-04-09 14:32:25 | DEBUG    | coda_base |   batch 200 | loss 0.7968 | grad 1.6341 | lr 7.62e-05 | GPU 0.76 GB
+2026-04-09 14:32:26 | DEBUG    | coda_base |   batch 250 | loss 0.5338 | grad 1.5986 | lr 7.52e-05 | GPU 0.76 GB
+2026-04-09 14:32:28 | INFO     | coda_base | Epoch 12/30 | train_loss 0.5996 | val_loss 0.8550 | train_UA 0.7620 | val_UA 0.6661 | val_F1 0.6194 | time 9.7s | ETA 318.1s
+2026-04-09 14:32:33 | DEBUG    | coda_base |   batch 50 | loss 0.3905 | grad 1.5988 | lr 7.40e-05 | GPU 0.76 GB
+2026-04-09 14:32:35 | DEBUG    | coda_base |   batch 100 | loss 0.6333 | grad 1.7027 | lr 7.30e-05 | GPU 0.76 GB
+2026-04-09 14:32:36 | DEBUG    | coda_base |   batch 150 | loss 0.2906 | grad 1.5828 | lr 7.21e-05 | GPU 0.76 GB
+2026-04-09 14:32:38 | DEBUG    | coda_base |   batch 200 | loss 0.4349 | grad 1.6974 | lr 7.11e-05 | GPU 0.76 GB
+2026-04-09 14:32:39 | DEBUG    | coda_base |   batch 250 | loss 0.8473 | grad 1.8023 | lr 7.00e-05 | GPU 0.77 GB
+2026-04-09 14:32:41 | INFO     | coda_base | Epoch 13/30 | train_loss 0.5867 | val_loss 0.8673 | train_UA 0.7659 | val_UA 0.6537 | val_F1 0.6247 | time 9.5s | ETA 294.6s
+2026-04-09 14:32:45 | INFO     | coda_base | Early stopping at epoch 13
+2026-04-09 14:32:45 | INFO     | coda_base | ============================================================
+2026-04-09 14:32:45 | INFO     | coda_base | Training complete in 3.8 min
+2026-04-09 14:32:45 | INFO     | coda_base | Best val UA: 0.6742
+2026-04-09 14:32:45 | INFO     | coda_base | 
+Final validation metrics:
+2026-04-09 14:32:45 | INFO     | coda_base | WA:       0.6167
+UA:       0.6537
+Macro F1: 0.6247
+Per-class F1:
+  angry        0.7090
+  sad          0.5914
+  neutral      0.5872
+  positive     0.6111
+2026-04-09 14:32:45 | INFO     | coda_base | Metrics saved to C:\Users\Meric\Desktop\VKR\Code\results\metrics\coda_base_seed42.json

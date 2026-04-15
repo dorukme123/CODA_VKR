@@ -1,0 +1,27 @@
+2026-04-10 23:36:13 | INFO     | coda_uniattn | Log file: C:\Users\Meric\Desktop\VKR\Code\results\logs\2026-04-10_23-36-13_coda_uniattn.log
+2026-04-10 23:36:13 | INFO     | coda_uniattn | ============================================================
+2026-04-10 23:36:13 | INFO     | coda_uniattn | Training: CODA-UNIATTN
+2026-04-10 23:36:13 | INFO     | coda_uniattn | Device: cuda | Seed: 42 | Dry run: False
+2026-04-10 23:36:13 | INFO     | coda_uniattn | Epochs: 30 | Batch: 16 | LR: 1.00e-04
+2026-04-10 23:36:13 | INFO     | coda_uniattn | Freeze BERT: True | Prosodic: True | AMP: True
+2026-04-10 23:36:13 | INFO     | coda_uniattn | ============================================================
+2026-04-10 23:41:38 | INFO     | coda_uniattn | Dataset: 179590 samples
+2026-04-10 23:41:38 | INFO     | coda_uniattn | Train: 161631 | Val: 17959
+2026-04-10 23:41:39 | INFO     | coda_uniattn | Class weights (sqrt_inverse): ['1.140', '1.064', '0.480', '1.316']
+2026-04-10 23:41:43 | INFO     | coda_uniattn | Total params: 179,697,606 | Trainable: 1,390,278
+2026-04-10 23:42:04 | DEBUG    | coda_uniattn |   batch 50 | loss 2.0446 | grad 1.6695 | lr 4.00e-06 | GPU 0.77 GB
+2026-04-10 23:42:22 | DEBUG    | coda_uniattn |   batch 100 | loss 1.9847 | grad 1.6781 | lr 4.00e-06 | GPU 0.77 GB
+2026-04-10 23:42:41 | DEBUG    | coda_uniattn |   batch 150 | loss 2.4588 | grad 1.6454 | lr 4.01e-06 | GPU 0.77 GB
+2026-04-10 23:42:59 | DEBUG    | coda_uniattn |   batch 200 | loss 1.7912 | grad 1.6629 | lr 4.01e-06 | GPU 0.78 GB
+2026-04-10 23:43:17 | DEBUG    | coda_uniattn |   batch 250 | loss 1.6093 | grad 1.7106 | lr 4.02e-06 | GPU 0.77 GB
+2026-04-10 23:43:36 | DEBUG    | coda_uniattn |   batch 300 | loss 1.4609 | grad 1.6845 | lr 4.02e-06 | GPU 0.78 GB
+2026-04-10 23:43:54 | DEBUG    | coda_uniattn |   batch 350 | loss 2.3697 | grad 1.6911 | lr 4.03e-06 | GPU 0.78 GB
+2026-04-10 23:44:13 | DEBUG    | coda_uniattn |   batch 400 | loss 1.7827 | grad 1.6506 | lr 4.04e-06 | GPU 0.78 GB
+2026-04-10 23:44:31 | DEBUG    | coda_uniattn |   batch 450 | loss 1.8574 | grad 1.6199 | lr 4.05e-06 | GPU 0.78 GB
+2026-04-10 23:44:50 | DEBUG    | coda_uniattn |   batch 500 | loss 1.6036 | grad 1.6770 | lr 4.06e-06 | GPU 0.77 GB
+2026-04-10 23:45:09 | DEBUG    | coda_uniattn |   batch 550 | loss 1.7541 | grad 1.6353 | lr 4.08e-06 | GPU 0.77 GB
+2026-04-10 23:45:27 | DEBUG    | coda_uniattn |   batch 600 | loss 2.0548 | grad 1.6212 | lr 4.09e-06 | GPU 0.77 GB
+2026-04-10 23:45:46 | DEBUG    | coda_uniattn |   batch 650 | loss 1.1132 | grad 1.6891 | lr 4.11e-06 | GPU 0.78 GB
+2026-04-10 23:46:04 | DEBUG    | coda_uniattn |   batch 700 | loss 2.0639 | grad 1.6990 | lr 4.13e-06 | GPU 0.77 GB
+2026-04-10 23:46:23 | DEBUG    | coda_uniattn |   batch 750 | loss 1.4143 | grad 1.7301 | lr 4.15e-06 | GPU 0.78 GB
+2026-04-10 23:46:41 | DEBUG    | coda_uniattn |   batch 800 | loss 1.7515 | grad 1.6697 | lr 4.16e-06 | GPU 0.77 GB

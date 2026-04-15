@@ -1,0 +1,54 @@
+{
+  "model": "coda_uniattn",
+  "variant": "uniattn",
+  "seed": 42,
+  "best_val_ua": 0.8161503069184339,
+  "final_val_metrics": {
+    "weighted_accuracy": 0.8344456619185178,
+    "unweighted_accuracy": 0.8161503069184339,
+    "macro_f1": 0.7826867746501609,
+    "per_class_f1": {
+      "angry": 0.7939278937381404,
+      "sad": 0.6980830670926518,
+      "neutral": 0.8815585221980752,
+      "positive": 0.7571776155717762
+    },
+    "confusion_matrix": [
+      [
+        2092,
+        18,
+        153,
+        50
+      ],
+      [
+        43,
+        1748,
+        687,
+        28
+      ],
+      [
+        704,
+        721,
+        11358,
+        558
+      ],
+      [
+        118,
+        15,
+        229,
+        1556
+      ]
+    ]
+  },
+  "total_time_sec": 4223.139950752258,
+  "config": {
+    "model_name": "coda_uniattn",
+    "variant": "uniattn",
+    "seed": 42,
+    "max_samples": null,
+    "batch_size": 16,
+    "lr": 0.0001,
+    "freeze_bert": true,
+    "weight_method": "sqrt_inverse"
+  }
+}

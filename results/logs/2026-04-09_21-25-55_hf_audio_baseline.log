@@ -1,0 +1,112 @@
+2026-04-09 21:25:55 | INFO     | hf_audio_baseline | Log file: C:\Users\Meric\Desktop\VKR\Code\results\logs\2026-04-09_21-25-55_hf_audio_baseline.log
+2026-04-09 21:25:55 | INFO     | hf_audio_baseline | ============================================================
+2026-04-09 21:25:55 | INFO     | hf_audio_baseline | Training: hf_audio_baseline
+2026-04-09 21:25:55 | INFO     | hf_audio_baseline | Device: cuda
+2026-04-09 21:25:55 | INFO     | hf_audio_baseline | Seed: 42
+2026-04-09 21:25:55 | INFO     | hf_audio_baseline | Dry run: False
+2026-04-09 21:25:55 | INFO     | hf_audio_baseline | Max samples: None
+2026-04-09 21:25:55 | INFO     | hf_audio_baseline | Epochs: 30 | Batch: 32 | LR: 1.00e-04
+2026-04-09 21:25:55 | INFO     | hf_audio_baseline | Prosodic: True
+2026-04-09 21:25:55 | INFO     | hf_audio_baseline | ============================================================
+2026-04-09 21:25:59 | INFO     | hf_audio_baseline | Dataset: 181168 samples
+2026-04-09 21:25:59 | INFO     | hf_audio_baseline | Train: 163052 | Val: 18116
+2026-04-09 21:25:59 | INFO     | hf_audio_baseline | Class weights: [1.1803399324417114, 1.0375936031341553, 0.21276243031024933, 1.5693039894104004]
+2026-04-09 21:25:59 | INFO     | hf_audio_baseline | Model params: 568,261
+2026-04-09 21:26:49 | DEBUG    | hf_audio_baseline |   batch 50 | loss 1.4898 | grad_norm 1.8042 | lr 4.00e-06 | GPU 0.06 GB
+2026-04-09 21:26:58 | DEBUG    | hf_audio_baseline |   batch 100 | loss 1.3672 | grad_norm 1.7679 | lr 4.01e-06 | GPU 0.07 GB
+2026-04-09 21:27:07 | DEBUG    | hf_audio_baseline |   batch 150 | loss 1.3771 | grad_norm 1.7793 | lr 4.02e-06 | GPU 0.06 GB
+2026-04-09 21:27:16 | DEBUG    | hf_audio_baseline |   batch 200 | loss 1.4183 | grad_norm 1.8217 | lr 4.04e-06 | GPU 0.07 GB
+2026-04-09 21:27:25 | DEBUG    | hf_audio_baseline |   batch 250 | loss 1.3829 | grad_norm 1.7938 | lr 4.06e-06 | GPU 0.08 GB
+2026-04-09 21:27:34 | DEBUG    | hf_audio_baseline |   batch 300 | loss 1.3975 | grad_norm 1.8290 | lr 4.09e-06 | GPU 0.08 GB
+2026-04-09 21:27:43 | DEBUG    | hf_audio_baseline |   batch 350 | loss 1.3940 | grad_norm 1.8252 | lr 4.12e-06 | GPU 0.07 GB
+2026-04-09 21:27:52 | DEBUG    | hf_audio_baseline |   batch 400 | loss 1.4068 | grad_norm 1.8032 | lr 4.16e-06 | GPU 0.08 GB
+2026-04-09 21:28:01 | DEBUG    | hf_audio_baseline |   batch 450 | loss 1.4327 | grad_norm 1.7698 | lr 4.21e-06 | GPU 0.07 GB
+2026-04-09 21:28:10 | DEBUG    | hf_audio_baseline |   batch 500 | loss 1.4595 | grad_norm 1.7283 | lr 4.25e-06 | GPU 0.06 GB
+2026-04-09 21:28:19 | DEBUG    | hf_audio_baseline |   batch 550 | loss 1.4217 | grad_norm 1.7701 | lr 4.31e-06 | GPU 0.06 GB
+2026-04-09 21:28:28 | DEBUG    | hf_audio_baseline |   batch 600 | loss 1.3450 | grad_norm 1.8198 | lr 4.36e-06 | GPU 0.06 GB
+2026-04-09 21:28:37 | DEBUG    | hf_audio_baseline |   batch 650 | loss 1.4447 | grad_norm 1.8032 | lr 4.43e-06 | GPU 0.07 GB
+2026-04-09 21:28:46 | DEBUG    | hf_audio_baseline |   batch 700 | loss 1.4358 | grad_norm 1.7964 | lr 4.50e-06 | GPU 0.07 GB
+2026-04-09 21:28:54 | DEBUG    | hf_audio_baseline |   batch 750 | loss 1.4572 | grad_norm 1.7902 | lr 4.57e-06 | GPU 0.06 GB
+2026-04-09 21:29:04 | DEBUG    | hf_audio_baseline |   batch 800 | loss 1.4104 | grad_norm 1.8084 | lr 4.65e-06 | GPU 0.07 GB
+2026-04-09 21:29:12 | DEBUG    | hf_audio_baseline |   batch 850 | loss 1.3582 | grad_norm 1.8035 | lr 4.73e-06 | GPU 0.08 GB
+2026-04-09 21:29:21 | DEBUG    | hf_audio_baseline |   batch 900 | loss 1.4873 | grad_norm 1.8121 | lr 4.82e-06 | GPU 0.07 GB
+2026-04-09 21:29:30 | DEBUG    | hf_audio_baseline |   batch 950 | loss 1.4390 | grad_norm 1.8146 | lr 4.91e-06 | GPU 0.07 GB
+2026-04-09 21:29:39 | DEBUG    | hf_audio_baseline |   batch 1000 | loss 1.4163 | grad_norm 1.8404 | lr 5.01e-06 | GPU 0.06 GB
+2026-04-09 21:29:48 | DEBUG    | hf_audio_baseline |   batch 1050 | loss 1.4026 | grad_norm 1.7458 | lr 5.11e-06 | GPU 0.06 GB
+2026-04-09 21:29:57 | DEBUG    | hf_audio_baseline |   batch 1100 | loss 1.4001 | grad_norm 1.7918 | lr 5.22e-06 | GPU 0.07 GB
+2026-04-09 21:30:06 | DEBUG    | hf_audio_baseline |   batch 1150 | loss 1.3818 | grad_norm 1.7640 | lr 5.33e-06 | GPU 0.06 GB
+2026-04-09 21:30:15 | DEBUG    | hf_audio_baseline |   batch 1200 | loss 1.4077 | grad_norm 1.7874 | lr 5.45e-06 | GPU 0.07 GB
+2026-04-09 21:30:24 | DEBUG    | hf_audio_baseline |   batch 1250 | loss 1.3300 | grad_norm 1.7637 | lr 5.58e-06 | GPU 0.08 GB
+2026-04-09 21:30:33 | DEBUG    | hf_audio_baseline |   batch 1300 | loss 1.3366 | grad_norm 1.8174 | lr 5.70e-06 | GPU 0.08 GB
+2026-04-09 21:30:42 | DEBUG    | hf_audio_baseline |   batch 1350 | loss 1.4226 | grad_norm 1.8410 | lr 5.84e-06 | GPU 0.06 GB
+2026-04-09 21:30:51 | DEBUG    | hf_audio_baseline |   batch 1400 | loss 1.3970 | grad_norm 1.7486 | lr 5.97e-06 | GPU 0.06 GB
+2026-04-09 21:30:59 | DEBUG    | hf_audio_baseline |   batch 1450 | loss 1.4073 | grad_norm 1.7552 | lr 6.12e-06 | GPU 0.06 GB
+2026-04-09 21:31:08 | DEBUG    | hf_audio_baseline |   batch 1500 | loss 1.3294 | grad_norm 1.7742 | lr 6.26e-06 | GPU 0.07 GB
+2026-04-09 21:31:17 | DEBUG    | hf_audio_baseline |   batch 1550 | loss 1.4152 | grad_norm 1.7489 | lr 6.41e-06 | GPU 0.06 GB
+2026-04-09 21:31:26 | DEBUG    | hf_audio_baseline |   batch 1600 | loss 1.3199 | grad_norm 1.7353 | lr 6.57e-06 | GPU 0.06 GB
+2026-04-09 21:31:35 | DEBUG    | hf_audio_baseline |   batch 1650 | loss 1.3765 | grad_norm 1.7820 | lr 6.73e-06 | GPU 0.07 GB
+2026-04-09 21:31:44 | DEBUG    | hf_audio_baseline |   batch 1700 | loss 1.4290 | grad_norm 1.8396 | lr 6.90e-06 | GPU 0.08 GB
+2026-04-09 21:31:53 | DEBUG    | hf_audio_baseline |   batch 1750 | loss 1.3433 | grad_norm 1.8253 | lr 7.07e-06 | GPU 0.08 GB
+2026-04-09 21:32:02 | DEBUG    | hf_audio_baseline |   batch 1800 | loss 1.3796 | grad_norm 1.8178 | lr 7.25e-06 | GPU 0.07 GB
+2026-04-09 21:32:11 | DEBUG    | hf_audio_baseline |   batch 1850 | loss 1.3582 | grad_norm 1.8346 | lr 7.43e-06 | GPU 0.06 GB
+2026-04-09 21:32:20 | DEBUG    | hf_audio_baseline |   batch 1900 | loss 1.4561 | grad_norm 1.7901 | lr 7.61e-06 | GPU 0.07 GB
+2026-04-09 21:32:29 | DEBUG    | hf_audio_baseline |   batch 1950 | loss 1.3828 | grad_norm 1.7894 | lr 7.80e-06 | GPU 0.06 GB
+2026-04-09 21:32:38 | DEBUG    | hf_audio_baseline |   batch 2000 | loss 1.3896 | grad_norm 1.8018 | lr 8.00e-06 | GPU 0.06 GB
+2026-04-09 21:32:46 | DEBUG    | hf_audio_baseline |   batch 2050 | loss 1.3950 | grad_norm 1.8118 | lr 8.20e-06 | GPU 0.07 GB
+2026-04-09 21:32:56 | DEBUG    | hf_audio_baseline |   batch 2100 | loss 1.3363 | grad_norm 1.8403 | lr 8.40e-06 | GPU 0.07 GB
+2026-04-09 21:33:04 | DEBUG    | hf_audio_baseline |   batch 2150 | loss 1.4198 | grad_norm 1.8155 | lr 8.61e-06 | GPU 0.07 GB
+2026-04-09 21:33:13 | DEBUG    | hf_audio_baseline |   batch 2200 | loss 1.3719 | grad_norm 1.7538 | lr 8.82e-06 | GPU 0.06 GB
+2026-04-09 21:33:22 | DEBUG    | hf_audio_baseline |   batch 2250 | loss 1.3577 | grad_norm 1.7454 | lr 9.04e-06 | GPU 0.08 GB
+2026-04-09 21:33:31 | DEBUG    | hf_audio_baseline |   batch 2300 | loss 1.3531 | grad_norm 1.8188 | lr 9.26e-06 | GPU 0.07 GB
+2026-04-09 21:33:40 | DEBUG    | hf_audio_baseline |   batch 2350 | loss 1.3812 | grad_norm 1.7804 | lr 9.49e-06 | GPU 0.07 GB
+2026-04-09 21:33:49 | DEBUG    | hf_audio_baseline |   batch 2400 | loss 1.3351 | grad_norm 1.7634 | lr 9.72e-06 | GPU 0.08 GB
+2026-04-09 21:33:58 | DEBUG    | hf_audio_baseline |   batch 2450 | loss 1.3602 | grad_norm 1.8325 | lr 9.96e-06 | GPU 0.07 GB
+2026-04-09 21:34:07 | DEBUG    | hf_audio_baseline |   batch 2500 | loss 1.3579 | grad_norm 1.7255 | lr 1.02e-05 | GPU 0.07 GB
+2026-04-09 21:34:15 | DEBUG    | hf_audio_baseline |   batch 2550 | loss 1.3531 | grad_norm 1.8065 | lr 1.04e-05 | GPU 0.07 GB
+2026-04-09 21:34:24 | DEBUG    | hf_audio_baseline |   batch 2600 | loss 1.3426 | grad_norm 1.7693 | lr 1.07e-05 | GPU 0.08 GB
+2026-04-09 21:34:33 | DEBUG    | hf_audio_baseline |   batch 2650 | loss 1.3522 | grad_norm 1.8096 | lr 1.09e-05 | GPU 0.08 GB
+2026-04-09 21:34:42 | DEBUG    | hf_audio_baseline |   batch 2700 | loss 1.3906 | grad_norm 1.7826 | lr 1.12e-05 | GPU 0.08 GB
+2026-04-09 21:34:51 | DEBUG    | hf_audio_baseline |   batch 2750 | loss 1.3755 | grad_norm 1.8003 | lr 1.15e-05 | GPU 0.08 GB
+2026-04-09 21:35:00 | DEBUG    | hf_audio_baseline |   batch 2800 | loss 1.4426 | grad_norm 1.7717 | lr 1.17e-05 | GPU 0.06 GB
+2026-04-09 21:35:09 | DEBUG    | hf_audio_baseline |   batch 2850 | loss 1.3666 | grad_norm 1.8368 | lr 1.20e-05 | GPU 0.07 GB
+2026-04-09 21:35:18 | DEBUG    | hf_audio_baseline |   batch 2900 | loss 1.3916 | grad_norm 1.7985 | lr 1.23e-05 | GPU 0.07 GB
+2026-04-09 21:35:27 | DEBUG    | hf_audio_baseline |   batch 2950 | loss 1.3190 | grad_norm 1.8004 | lr 1.26e-05 | GPU 0.06 GB
+2026-04-09 21:35:36 | DEBUG    | hf_audio_baseline |   batch 3000 | loss 1.3006 | grad_norm 1.7997 | lr 1.28e-05 | GPU 0.08 GB
+2026-04-09 21:35:45 | DEBUG    | hf_audio_baseline |   batch 3050 | loss 1.4258 | grad_norm 1.8141 | lr 1.31e-05 | GPU 0.06 GB
+2026-04-09 21:35:54 | DEBUG    | hf_audio_baseline |   batch 3100 | loss 1.4031 | grad_norm 1.7458 | lr 1.34e-05 | GPU 0.07 GB
+2026-04-09 21:36:03 | DEBUG    | hf_audio_baseline |   batch 3150 | loss 1.4203 | grad_norm 1.7769 | lr 1.37e-05 | GPU 0.06 GB
+2026-04-09 21:36:12 | DEBUG    | hf_audio_baseline |   batch 3200 | loss 1.3913 | grad_norm 1.7429 | lr 1.40e-05 | GPU 0.07 GB
+2026-04-09 21:36:20 | DEBUG    | hf_audio_baseline |   batch 3250 | loss 1.3407 | grad_norm 1.7139 | lr 1.43e-05 | GPU 0.06 GB
+2026-04-09 21:36:29 | DEBUG    | hf_audio_baseline |   batch 3300 | loss 1.3694 | grad_norm 1.7079 | lr 1.46e-05 | GPU 0.08 GB
+2026-04-09 21:36:38 | DEBUG    | hf_audio_baseline |   batch 3350 | loss 1.4120 | grad_norm 1.7674 | lr 1.49e-05 | GPU 0.07 GB
+2026-04-09 21:36:47 | DEBUG    | hf_audio_baseline |   batch 3400 | loss 1.3549 | grad_norm 1.8057 | lr 1.52e-05 | GPU 0.06 GB
+2026-04-09 21:36:56 | DEBUG    | hf_audio_baseline |   batch 3450 | loss 1.3805 | grad_norm 1.7196 | lr 1.56e-05 | GPU 0.07 GB
+2026-04-09 21:37:05 | DEBUG    | hf_audio_baseline |   batch 3500 | loss 1.3172 | grad_norm 1.7079 | lr 1.59e-05 | GPU 0.08 GB
+2026-04-09 21:37:14 | DEBUG    | hf_audio_baseline |   batch 3550 | loss 1.3499 | grad_norm 1.7880 | lr 1.62e-05 | GPU 0.06 GB
+2026-04-09 21:37:22 | DEBUG    | hf_audio_baseline |   batch 3600 | loss 1.3595 | grad_norm 1.7484 | lr 1.65e-05 | GPU 0.06 GB
+2026-04-09 21:37:31 | DEBUG    | hf_audio_baseline |   batch 3650 | loss 1.3767 | grad_norm 1.7572 | lr 1.69e-05 | GPU 0.06 GB
+2026-04-09 21:37:40 | DEBUG    | hf_audio_baseline |   batch 3700 | loss 1.3296 | grad_norm 1.7768 | lr 1.72e-05 | GPU 0.06 GB
+2026-04-09 21:37:49 | DEBUG    | hf_audio_baseline |   batch 3750 | loss 1.4236 | grad_norm 1.7707 | lr 1.76e-05 | GPU 0.06 GB
+2026-04-09 21:37:58 | DEBUG    | hf_audio_baseline |   batch 3800 | loss 1.4012 | grad_norm 1.7724 | lr 1.79e-05 | GPU 0.08 GB
+2026-04-09 21:38:07 | DEBUG    | hf_audio_baseline |   batch 3850 | loss 1.3487 | grad_norm 1.6911 | lr 1.83e-05 | GPU 0.07 GB
+2026-04-09 21:38:16 | DEBUG    | hf_audio_baseline |   batch 3900 | loss 1.3845 | grad_norm 1.7350 | lr 1.86e-05 | GPU 0.07 GB
+2026-04-09 21:38:24 | DEBUG    | hf_audio_baseline |   batch 3950 | loss 1.3341 | grad_norm 1.7023 | lr 1.90e-05 | GPU 0.06 GB
+2026-04-09 21:38:33 | DEBUG    | hf_audio_baseline |   batch 4000 | loss 1.3748 | grad_norm 1.7821 | lr 1.93e-05 | GPU 0.07 GB
+2026-04-09 21:38:42 | DEBUG    | hf_audio_baseline |   batch 4050 | loss 1.3357 | grad_norm 1.7656 | lr 1.97e-05 | GPU 0.07 GB
+2026-04-09 21:38:51 | DEBUG    | hf_audio_baseline |   batch 4100 | loss 1.3485 | grad_norm 1.8100 | lr 2.01e-05 | GPU 0.08 GB
+2026-04-09 21:39:00 | DEBUG    | hf_audio_baseline |   batch 4150 | loss 1.3327 | grad_norm 1.6983 | lr 2.04e-05 | GPU 0.07 GB
+2026-04-09 21:39:09 | DEBUG    | hf_audio_baseline |   batch 4200 | loss 1.3678 | grad_norm 1.8302 | lr 2.08e-05 | GPU 0.07 GB
+2026-04-09 21:39:17 | DEBUG    | hf_audio_baseline |   batch 4250 | loss 1.3663 | grad_norm 1.7609 | lr 2.12e-05 | GPU 0.06 GB
+2026-04-09 21:39:26 | DEBUG    | hf_audio_baseline |   batch 4300 | loss 1.3113 | grad_norm 1.6592 | lr 2.16e-05 | GPU 0.07 GB
+2026-04-09 21:39:35 | DEBUG    | hf_audio_baseline |   batch 4350 | loss 1.4113 | grad_norm 1.7969 | lr 2.19e-05 | GPU 0.08 GB
+2026-04-09 21:39:44 | DEBUG    | hf_audio_baseline |   batch 4400 | loss 1.3380 | grad_norm 1.7256 | lr 2.23e-05 | GPU 0.07 GB
+2026-04-09 21:39:53 | DEBUG    | hf_audio_baseline |   batch 4450 | loss 1.2816 | grad_norm 1.7311 | lr 2.27e-05 | GPU 0.08 GB
+2026-04-09 21:40:02 | DEBUG    | hf_audio_baseline |   batch 4500 | loss 1.3159 | grad_norm 1.7268 | lr 2.31e-05 | GPU 0.07 GB
+2026-04-09 21:40:10 | DEBUG    | hf_audio_baseline |   batch 4550 | loss 1.3882 | grad_norm 1.7406 | lr 2.35e-05 | GPU 0.06 GB
+2026-04-09 21:40:19 | DEBUG    | hf_audio_baseline |   batch 4600 | loss 1.2175 | grad_norm 1.7099 | lr 2.39e-05 | GPU 0.06 GB
+2026-04-09 21:40:28 | DEBUG    | hf_audio_baseline |   batch 4650 | loss 1.2836 | grad_norm 1.7156 | lr 2.43e-05 | GPU 0.07 GB
+2026-04-09 21:40:37 | DEBUG    | hf_audio_baseline |   batch 4700 | loss 1.3506 | grad_norm 1.7528 | lr 2.47e-05 | GPU 0.07 GB
+2026-04-09 21:40:46 | DEBUG    | hf_audio_baseline |   batch 4750 | loss 1.3587 | grad_norm 1.7378 | lr 2.51e-05 | GPU 0.06 GB
+2026-04-09 21:40:54 | DEBUG    | hf_audio_baseline |   batch 4800 | loss 1.2790 | grad_norm 1.6787 | lr 2.55e-05 | GPU 0.07 GB
+2026-04-09 21:41:03 | DEBUG    | hf_audio_baseline |   batch 4850 | loss 1.2046 | grad_norm 1.6928 | lr 2.59e-05 | GPU 0.07 GB
+2026-04-09 21:41:12 | DEBUG    | hf_audio_baseline |   batch 4900 | loss 1.1947 | grad_norm 1.6885 | lr 2.63e-05 | GPU 0.07 GB

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model files
+*.pt
+*.bin
+*.safetensors
+results/onnx/hf_rubert_baseline.onnx
+
+# Datasets (download separately)
+datasets/
+
+# Preprocessed features (generate via preprocessing pipeline)
+results/preprocessed/
+results/checkpoints/

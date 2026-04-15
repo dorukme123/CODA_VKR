@@ -1,0 +1,43 @@
+{
+  "model": "hf_audio_only",
+  "checkpoint": "results/checkpoints/hf_audio_baseline/epoch_021.pt",
+  "test_manifest": "results/preprocessed/dusha/crowd_test/manifest.jsonl",
+  "test_samples": 16814,
+  "metrics": {
+    "weighted_accuracy": 0.7157130962293327,
+    "unweighted_accuracy": 0.7621473584611603,
+    "macro_f1": 0.676527912579216,
+    "per_class_f1": {
+      "angry": 0.6816199376947041,
+      "sad": 0.6146506617420745,
+      "neutral": 0.7732628797886394,
+      "positive": 0.6365781710914454
+    },
+    "confusion_matrix": [
+      [
+        1641,
+        73,
+        157,
+        131
+      ],
+      [
+        50,
+        1997,
+        403,
+        36
+      ],
+      [
+        970,
+        1895,
+        7317,
+        713
+      ],
+      [
+        152,
+        47,
+        153,
+        1079
+      ]
+    ]
+  }
+}

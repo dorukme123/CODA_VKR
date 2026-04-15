@@ -1,0 +1,28 @@
+2026-04-09 13:17:20 | INFO     | hf_audio_baseline | Log file: C:\Users\Meric\Desktop\VKR\Code\results\logs\2026-04-09_13-17-20_hf_audio_baseline.log
+2026-04-09 13:17:20 | INFO     | hf_audio_baseline | ============================================================
+2026-04-09 13:17:20 | INFO     | hf_audio_baseline | Training: hf_audio_baseline
+2026-04-09 13:17:20 | INFO     | hf_audio_baseline | Device: cuda
+2026-04-09 13:17:20 | INFO     | hf_audio_baseline | Seed: 42
+2026-04-09 13:17:20 | INFO     | hf_audio_baseline | Dry run: True
+2026-04-09 13:17:20 | INFO     | hf_audio_baseline | Max samples: 4
+2026-04-09 13:17:20 | INFO     | hf_audio_baseline | Epochs: 2 | Batch: 4 | LR: 1.00e-04
+2026-04-09 13:17:20 | INFO     | hf_audio_baseline | Prosodic: True
+2026-04-09 13:17:20 | INFO     | hf_audio_baseline | ============================================================
+2026-04-09 13:17:21 | INFO     | hf_audio_baseline | Dataset: 4 samples
+2026-04-09 13:17:21 | INFO     | hf_audio_baseline | Train: 3 | Val: 1
+2026-04-09 13:17:21 | INFO     | hf_audio_baseline | Class weights: [1.0, 1.0, 1.0, 1.0]
+2026-04-09 13:17:21 | INFO     | hf_audio_baseline | Model params: 568,261
+2026-04-09 13:17:24 | INFO     | hf_audio_baseline | Epoch 1/2 | train_loss 1.4268 | val_loss 1.6045 | train_UA 0.3333 | val_UA 0.0000 | val_F1 0.0000 | time 0.6s | ETA 0.6s
+2026-04-09 13:17:24 | INFO     | hf_audio_baseline | Epoch 2/2 | train_loss 1.2909 | val_loss 1.6045 | train_UA 0.3333 | val_UA 0.0000 | val_F1 0.0000 | time 0.0s | ETA 0.0s
+2026-04-09 13:17:24 | INFO     | hf_audio_baseline | ============================================================
+2026-04-09 13:17:24 | INFO     | hf_audio_baseline | Training complete in 0.0 min
+2026-04-09 13:17:24 | INFO     | hf_audio_baseline | Best val UA: 0.0000
+2026-04-09 13:17:24 | INFO     | hf_audio_baseline | 
+Final validation metrics:
+2026-04-09 13:17:24 | INFO     | hf_audio_baseline | WA:       0.0000
+UA:       0.0000
+Macro F1: 0.0000
+Per-class F1:
+  angry        0.0000
+  sad          0.0000
+2026-04-09 13:17:24 | INFO     | hf_audio_baseline | Metrics saved to C:\Users\Meric\Desktop\VKR\Code\results\metrics\hf_audio_baseline_seed42.json

@@ -1,0 +1,45 @@
+# CODA Pipeline — Dependencies
+# Install: pip install -r requirements.txt
+# Then:    python -m spacy download ru_core_news_lg
+#          python -m spacy download en_core_web_lg
+
+# Core
+torch>=2.0
+torchaudio>=2.0
+torchinfo>=1.8
+
+# NLP / Transformers
+transformers>=4.35
+datasets>=2.14
+spacy>=3.7
+
+# Audio feature extraction
+parselmouth>=0.4
+opensmile>=2.5
+librosa>=0.10
+soundfile>=0.12
+
+# Speaker diarization
+pyannote.audio>=3.1
+
+# ML
+scikit-learn>=1.3
+
+# Data
+pandas>=2.0
+numpy>=1.24
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# Progress
+tqdm>=4.65
+
+# Export / Visualization
+onnx>=1.14
+onnxruntime>=1.16
+
+# Notebooks
+jupyter>=1.0
+ipykernel>=6.25

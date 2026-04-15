@@ -1,0 +1,54 @@
+=======================================================================================================================================
+Layer (type (var_name))                                 Input Shape          Output Shape         Param #              Trainable
+=======================================================================================================================================
+CODAPipeline (CODAPipeline)                             --                   [2, 10, 50]          178,307,328          Partial
+├─Sequential (audio_proj)                               [2, 50, 768]         [2, 50, 256]         --                   True
+│    └─Linear (0)                                       [2, 50, 768]         [2, 50, 256]         196,864              True
+│    └─ReLU (1)                                         [2, 50, 256]         [2, 50, 256]         --                   --
+│    └─Dropout (2)                                      [2, 50, 256]         [2, 50, 256]         --                   --
+├─Sequential (text_proj)                                [2, 10, 768]         [2, 10, 256]         --                   True
+│    └─Linear (0)                                       [2, 10, 768]         [2, 10, 256]         196,864              True
+│    └─ReLU (1)                                         [2, 10, 256]         [2, 10, 256]         --                   --
+│    └─Dropout (2)                                      [2, 10, 256]         [2, 10, 256]         --                   --
+├─BidirectionalCrossAttention (cross_attention)         [2, 50, 256]         [2, 50, 256]         --                   True
+│    └─ModuleList (a2t_layers)                          --                   --                   --                   True
+│    │    └─CrossModalAttentionLayer (0)                [2, 50, 256]         [2, 50, 256]         789,760              True
+│    └─ModuleList (t2a_layers)                          --                   --                   --                   True
+│    │    └─CrossModalAttentionLayer (0)                [2, 10, 256]         [2, 10, 256]         789,760              True
+├─ContextEncoder (context_encoder)                      [2, 50, 256]         [2, 50, 256]         --                   True
+│    └─LSTM (bilstm)                                    [100, 256]           [100, 256]           790,528              True
+├─AttentionPooling (audio_pool)                         [2, 50, 256]         [2, 256]             --                   True
+│    └─Sequential (attention)                           [2, 50, 256]         [2, 50, 1]           --                   True
+│    │    └─Linear (0)                                  [2, 50, 256]         [2, 50, 128]         32,896               True
+│    │    └─Tanh (1)                                    [2, 50, 128]         [2, 50, 128]         --                   --
+│    │    └─Linear (2)                                  [2, 50, 128]         [2, 50, 1]           129                  True
+├─AttentionPooling (text_pool)                          [2, 10, 256]         [2, 256]             --                   True
+│    └─Sequential (attention)                           [2, 10, 256]         [2, 10, 1]           --                   True
+│    │    └─Linear (0)                                  [2, 10, 256]         [2, 10, 128]         32,896               True
+│    │    └─Tanh (1)                                    [2, 10, 128]         [2, 10, 128]         --                   --
+│    │    └─Linear (2)                                  [2, 10, 128]         [2, 10, 1]           129                  True
+├─Sequential (prosodic_proj)                            [2, 5]               [2, 32]              --                   True
+│    └─Linear (0)                                       [2, 5]               [2, 32]              192                  True
+│    └─ReLU (1)                                         [2, 32]              [2, 32]              --                   --
+├─Sequential (classifier)                               [2, 544]             [2, 4]               --                   True
+│    └─Linear (0)                                       [2, 544]             [2, 256]             139,520              True
+│    └─ReLU (1)                                         [2, 256]             [2, 256]             --                   --
+│    └─Dropout (2)                                      [2, 256]             [2, 256]             --                   --
+│    └─Linear (3)                                       [2, 256]             [2, 4]               1,028                True
+├─DissonanceDetector (dissonance_head)                  [2, 50, 10]          [2]                  --                   True
+│    └─Sequential (entropy_proj)                        [2, 2]               [2, 1]               --                   True
+│    │    └─Linear (0)                                  [2, 2]               [2, 64]              192                  True
+│    │    └─ReLU (1)                                    [2, 64]              [2, 64]              --                   --
+│    │    └─Linear (2)                                  [2, 64]              [2, 1]               65                   True
+│    │    └─Sigmoid (3)                                 [2, 1]               [2, 1]               --                   --
+=======================================================================================================================================
+Total params: 181,278,151
+Trainable params: 2,970,823
+Non-trainable params: 178,307,328
+Total mult-adds (Units.GIGABYTES): 20.24
+=======================================================================================================================================
+Input size (MB): 0.37
+Forward/backward pass size (MB): 2.30
+Params size (MB): 9.78
+Estimated Total Size (MB): 12.45
+=======================================================================================================================================

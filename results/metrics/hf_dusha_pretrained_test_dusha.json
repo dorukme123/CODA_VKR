@@ -1,0 +1,46 @@
+{
+  "model": "hf_dusha_pretrained",
+  "hf_model": "xbgoose/hubert-large-speech-emotion-recognition-russian-dusha-finetuned",
+  "params": 315702405,
+  "test_manifest": "C:\\Users\\Meric\\Desktop\\VKR\\Code\\results\\preprocessed\\dusha\\crowd_test\\manifest.jsonl",
+  "test_samples": 16814,
+  "skipped": 0,
+  "other_predictions": 13,
+  "metrics": {
+    "weighted_accuracy": 0.832639467110741,
+    "unweighted_accuracy": 0.7933835947472255,
+    "macro_f1": 0.7835425912744528,
+    "per_class_f1": {
+      "angry": 0.7822685788787483,
+      "sad": 0.7355403348554034,
+      "neutral": 0.8786836478572092,
+      "positive": 0.7376778035064505
+    },
+    "confusion_matrix": [
+      [
+        1500,
+        32,
+        383,
+        87
+      ],
+      [
+        10,
+        1933,
+        540,
+        3
+      ],
+      [
+        273,
+        783,
+        9452,
+        387
+      ],
+      [
+        50,
+        22,
+        244,
+        1115
+      ]
+    ]
+  }
+}

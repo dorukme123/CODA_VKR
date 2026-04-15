@@ -1,0 +1,43 @@
+{
+  "model": "coda_biattn",
+  "checkpoint": "results/checkpoints/coda_biattn/epoch_008.pt",
+  "test_manifest": "results/preprocessed/dusha/crowd_test/manifest.jsonl",
+  "test_samples": 16814,
+  "metrics": {
+    "weighted_accuracy": 0.7898774830498394,
+    "unweighted_accuracy": 0.8083449635903496,
+    "macro_f1": 0.7495626609388737,
+    "per_class_f1": {
+      "angry": 0.7988966900702106,
+      "sad": 0.6803758198900904,
+      "neutral": 0.8387096774193549,
+      "positive": 0.6802684563758389
+    },
+    "confusion_matrix": [
+      [
+        1593,
+        43,
+        244,
+        122
+      ],
+      [
+        18,
+        1919,
+        517,
+        32
+      ],
+      [
+        341,
+        1179,
+        8502,
+        873
+      ],
+      [
+        34,
+        14,
+        116,
+        1267
+      ]
+    ]
+  }
+}

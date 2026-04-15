@@ -1,0 +1,51 @@
+{
+  "model": "hf_audio_baseline",
+  "seed": 42,
+  "best_val_ua": 0.7764938809798267,
+  "final_val_metrics": {
+    "weighted_accuracy": 0.7407816294987856,
+    "unweighted_accuracy": 0.7717622662797191,
+    "macro_f1": 0.6931072576477035,
+    "per_class_f1": {
+      "angry": 0.7208080808080808,
+      "sad": 0.6297953964194374,
+      "neutral": 0.8003218325524161,
+      "positive": 0.6215037208108801
+    },
+    "confusion_matrix": [
+      [
+        1784,
+        48,
+        199,
+        165
+      ],
+      [
+        34,
+        1970,
+        357,
+        44
+      ],
+      [
+        795,
+        1788,
+        8455,
+        850
+      ],
+      [
+        141,
+        45,
+        230,
+        1211
+      ]
+    ]
+  },
+  "total_time_sec": 13630.25316977501,
+  "config": {
+    "model_name": "hf_audio_baseline",
+    "seed": 42,
+    "max_samples": null,
+    "batch_size": 32,
+    "lr": 0.0001,
+    "use_prosodic": true
+  }
+}

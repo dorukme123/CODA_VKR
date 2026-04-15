@@ -1,0 +1,7 @@
+2026-04-10 22:57:19 | INFO     | coda_uniattn | Log file: C:\Users\Meric\Desktop\VKR\Code\results\logs\2026-04-10_22-57-19_coda_uniattn.log
+2026-04-10 22:57:19 | INFO     | coda_uniattn | ============================================================
+2026-04-10 22:57:19 | INFO     | coda_uniattn | Training: CODA-UNIATTN
+2026-04-10 22:57:19 | INFO     | coda_uniattn | Device: cuda | Seed: 42 | Dry run: False
+2026-04-10 22:57:19 | INFO     | coda_uniattn | Epochs: 30 | Batch: 16 | LR: 1.00e-04
+2026-04-10 22:57:19 | INFO     | coda_uniattn | Freeze BERT: True | Prosodic: True | AMP: True
+2026-04-10 22:57:19 | INFO     | coda_uniattn | ============================================================

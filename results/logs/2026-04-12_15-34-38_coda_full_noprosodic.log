@@ -1,0 +1,26 @@
+2026-04-12 15:34:38 | INFO     | coda_full_noprosodic | Log file: C:\Users\Meric\Desktop\VKR\Code\results\logs\2026-04-12_15-34-38_coda_full_noprosodic.log
+2026-04-12 15:34:38 | INFO     | coda_full_noprosodic | ============================================================
+2026-04-12 15:34:38 | INFO     | coda_full_noprosodic | Training: CODA-FULL
+2026-04-12 15:34:38 | INFO     | coda_full_noprosodic | Device: cuda | Seed: 42 | Dry run: False
+2026-04-12 15:34:38 | INFO     | coda_full_noprosodic | Epochs: 30 | Batch: 16 | LR: 1.00e-04
+2026-04-12 15:34:38 | INFO     | coda_full_noprosodic | Freeze BERT: True | Prosodic: False | AMP: True
+2026-04-12 15:34:38 | INFO     | coda_full_noprosodic | ============================================================
+2026-04-12 15:34:41 | INFO     | coda_full_noprosodic | Dataset: 179590 samples
+2026-04-12 15:34:42 | INFO     | coda_full_noprosodic | Train: 159512 | Val: 20078
+2026-04-12 15:34:42 | INFO     | coda_full_noprosodic | Class weights (sqrt_inverse): ['1.140', '1.064', '0.480', '1.316']
+2026-04-12 15:34:46 | INFO     | coda_full_noprosodic | Total params: 181,269,767 | Trainable: 2,962,439
+2026-04-12 15:36:55 | DEBUG    | coda_full_noprosodic |   batch 50 | loss 1.3315 | grad 2.9603 | lr 4.00e-06 | GPU 0.81 GB
+2026-04-12 15:37:03 | DEBUG    | coda_full_noprosodic |   batch 100 | loss 1.3456 | grad 2.8559 | lr 4.00e-06 | GPU 0.80 GB
+2026-04-12 15:37:12 | DEBUG    | coda_full_noprosodic |   batch 150 | loss 1.3886 | grad 2.9896 | lr 4.01e-06 | GPU 0.81 GB
+2026-04-12 15:37:21 | DEBUG    | coda_full_noprosodic |   batch 200 | loss 1.3487 | grad 2.8233 | lr 4.01e-06 | GPU 0.81 GB
+2026-04-12 15:37:30 | DEBUG    | coda_full_noprosodic |   batch 250 | loss 1.4599 | grad 2.8270 | lr 4.02e-06 | GPU 0.80 GB
+2026-04-12 15:37:38 | DEBUG    | coda_full_noprosodic |   batch 300 | loss 1.2121 | grad 2.8491 | lr 4.02e-06 | GPU 0.80 GB
+2026-04-12 15:37:47 | DEBUG    | coda_full_noprosodic |   batch 350 | loss 1.4091 | grad 2.8242 | lr 4.03e-06 | GPU 0.80 GB
+2026-04-12 15:37:55 | DEBUG    | coda_full_noprosodic |   batch 400 | loss 1.1285 | grad 2.8866 | lr 4.04e-06 | GPU 0.80 GB
+2026-04-12 15:38:04 | DEBUG    | coda_full_noprosodic |   batch 450 | loss 1.3062 | grad 2.8358 | lr 4.05e-06 | GPU 0.81 GB
+2026-04-12 15:38:14 | DEBUG    | coda_full_noprosodic |   batch 500 | loss 1.1969 | grad 2.8930 | lr 4.07e-06 | GPU 0.80 GB
+2026-04-12 15:38:23 | DEBUG    | coda_full_noprosodic |   batch 550 | loss 1.2013 | grad 2.8629 | lr 4.08e-06 | GPU 0.80 GB
+2026-04-12 15:38:31 | DEBUG    | coda_full_noprosodic |   batch 600 | loss 1.2701 | grad 3.0499 | lr 4.10e-06 | GPU 0.81 GB
+2026-04-12 15:38:40 | DEBUG    | coda_full_noprosodic |   batch 650 | loss 1.1946 | grad 2.9413 | lr 4.11e-06 | GPU 0.81 GB
+2026-04-12 15:38:49 | DEBUG    | coda_full_noprosodic |   batch 700 | loss 1.4360 | grad 2.9710 | lr 4.13e-06 | GPU 0.80 GB
+2026-04-12 15:38:58 | DEBUG    | coda_full_noprosodic |   batch 750 | loss 1.2053 | grad 2.9291 | lr 4.15e-06 | GPU 0.80 GB

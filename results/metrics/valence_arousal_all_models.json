@@ -1,0 +1,92 @@
+[
+  {
+    "model": "CODA-Base",
+    "model_key": "coda_base",
+    "valence_mae": 0.21095515641727133,
+    "valence_ccc": 0.668900340347954,
+    "valence_pearson": 0.6722130781048438,
+    "arousal_mae": 0.20417509218508387,
+    "arousal_ccc": 0.7194452082938803,
+    "arousal_pearson": 0.7228205456137315
+  },
+  {
+    "model": "CODA-BiAttn-Context",
+    "model_key": "coda_biattn_context",
+    "valence_mae": 0.20833828952063757,
+    "valence_ccc": 0.6772258083522914,
+    "valence_pearson": 0.6846830011388401,
+    "arousal_mae": 0.20441298917568693,
+    "arousal_ccc": 0.724618150001097,
+    "arousal_pearson": 0.7299529866627472
+  },
+  {
+    "model": "CODA-BiAttn",
+    "model_key": "coda_biattn",
+    "valence_mae": 0.21850838586891877,
+    "valence_ccc": 0.6689601353847593,
+    "valence_pearson": 0.6747472059156315,
+    "arousal_mae": 0.20720827881527298,
+    "arousal_ccc": 0.7204261700920176,
+    "arousal_pearson": 0.7251710267998459
+  },
+  {
+    "model": "CODA-Full (no prosodic)",
+    "model_key": "coda_full_noprosodic",
+    "valence_mae": 0.20304508147971928,
+    "valence_ccc": 0.6800557459525848,
+    "valence_pearson": 0.683689038662277,
+    "arousal_mae": 0.19162602593077196,
+    "arousal_ccc": 0.7303539526839199,
+    "arousal_pearson": 0.7355030324635842
+  },
+  {
+    "model": "CODA-Full",
+    "model_key": "coda_full",
+    "valence_mae": 0.21131200190317592,
+    "valence_ccc": 0.6726949854988821,
+    "valence_pearson": 0.6765104336940887,
+    "arousal_mae": 0.20024979184013322,
+    "arousal_ccc": 0.7278701311512835,
+    "arousal_pearson": 0.7316108811779172
+  },
+  {
+    "model": "CODA-UniAttn",
+    "model_key": "coda_uniattn",
+    "valence_mae": 0.20631616510051148,
+    "valence_ccc": 0.6694461717244824,
+    "valence_pearson": 0.6711308459588935,
+    "arousal_mae": 0.19858451290591175,
+    "arousal_ccc": 0.7154897050309975,
+    "arousal_pearson": 0.720387382358305
+  },
+  {
+    "model": "HF Audio-Only (HuBERT)",
+    "model_key": "hf_audio_only",
+    "valence_mae": 0.2987391459498037,
+    "valence_ccc": 0.555034881438077,
+    "valence_pearson": 0.5706817568600767,
+    "arousal_mae": 0.2797073867015582,
+    "arousal_ccc": 0.6500743385862755,
+    "arousal_pearson": 0.6632069028937744
+  },
+  {
+    "model": "HF-Dusha Pretrained",
+    "model_key": "hf_dusha_pretrained",
+    "valence_mae": 0.174497442607351,
+    "valence_ccc": 0.7043321994437886,
+    "valence_pearson": 0.7045886995844189,
+    "arousal_mae": 0.16319733555370525,
+    "arousal_ccc": 0.7609677837885086,
+    "arousal_pearson": 0.7615311122560688
+  },
+  {
+    "model": "HF Text-Only (ruBERT)",
+    "model_key": "hf_text_only",
+    "valence_mae": 0.33115261091947185,
+    "valence_ccc": 0.46593462212966313,
+    "valence_pearson": 0.47456078788449657,
+    "arousal_mae": 0.3468538122992744,
+    "arousal_ccc": 0.4232244195612874,
+    "arousal_pearson": 0.43674368479652265
+  }
+]

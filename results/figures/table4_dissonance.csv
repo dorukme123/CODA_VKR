@@ -1,0 +1,4 @@
+Method,Precision (%),Recall (%),F1 (%)
+Isolation Forest,63.23,8.91,15.62
+MLP Head,50.0,100.0,66.67
+Prediction Entropy,51.2,96.04,66.79
